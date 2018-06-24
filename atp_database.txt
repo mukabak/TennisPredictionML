@@ -1,0 +1,817 @@
+// data 2008-2018 are available on mukabak@gmail.com.
+
+column 0: YearMonthDay
+column 1: Hour
+column 2: Min
+column 3: Is it Challanger Match (Challanger/not Challanger(Null))
+column 4: Is it Qualification Match (Qualification/not Qualification(Null))
+column 5: ? Ignore it (Is it double). but there is no double player results
+column 6: Is it Final (Final/not Final (Null))
+column 7: Court Type (Hard/Clay/Grass/Carpet)
+column 8: Location (City)
+column 9: Player 1 name
+column 10: Who is winner (1/2) 0 is if match is cancelled
+column 11: Player 2 name
+column 12: Player 1, total number of won sets
+column 13: Player 2, total number of won sets
+column 14: Player 1, set 1 score
+column 15: Player 2, set 1 score
+column 16: Player 1, set 2 score
+column 17: Player 2, set 2 score
+column 18: Player 1, set 3 score
+column 19: Player 2, set 3 score
+
+20180101,07,11,Null,Null,Null,Null,Hard,Brisben,Xarrison R.,1,Majer L.,2,1,6,4,3,6,6,2
+20180101,13,39,Null,Null,Null,Null,Hard,Puna,Kikker N.,2,Fuchovich M.,0,2,0,6,3,6,0,0
+20180101,11,45,Challenger,Null,Null,Null,Hard,Bangkok,Nil`sen F.,2,Chipolla F.,1,2,6,2,5,7,4,6
+20180101,10,00,Challenger,Qualification,Null,Null,Hard,Bangkok,Ilkel K.,2,Karlovskij E.,1,2,6,3,6,7,3,6
+20180101,07,00,Challenger,Null,Null,Null,Hard,Numea,Gajo F.,2,Saxarov G.,1,2,4,6,7,6,4,6
+20180102,07,12,Null,Null,Null,Null,Hard,Brisben,Del`bonis F.,2,Mmo M.,0,2,3,6,4,6,0,0
+20180102,00,05,Null,Null,Null,Null,Hard,Doxa,Majer F.,2,Cicipas S.,1,2,6,4,5,7,4,6
+20180102,15,39,Null,Null,Null,Null,Hard,Puna,Nagal S.,2,Ivashka I.,0,2,3,6,3,6,0,0
+20180102,09,00,Challenger,Null,Null,Null,Hard,Bangkok,Trungelliti M.,2,Arnabol`di A.,0,2,6,7,4,6,0,0
+20180102,06,30,Challenger,Null,Null,Null,Hard,Numea,Delaplejn Dzh.,2,Blankano Dzh.,0,2,4,6,3,6,0,0
+20180102,06,45,Challenger,Null,Null,Null,Hard,Plejford,Krstin P.,2,Majxrzhak K.,1,2,6,4,6,7,5,7
+20180103,07,11,Null,Null,Null,Null,Hard,Brisben,Sebal`os O.,2,Dolgopolov A.,0,2,1,6,2,6,0,0
+20180103,00,12,Null,Null,Null,Null,Hard,Doxa,E`strel`ya Burgos V.,2,Gaske R.,0,2,0,6,2,6,0,0
+20180103,15,06,Null,Null,Null,Null,Hard,Puna,Fuchovich M.,2,Pe`r B.,1,2,4,6,7,6,6,7
+20180103,09,11,Challenger,Null,Null,Null,Hard,Bangkok,Rola B.,1,Arnabol`di A.,2,0,6,4,6,3,0,0
+20180103,06,00,Challenger,Null,Null,Null,Hard,Numea,De Shepper K.,1,Gonsales A.,2,0,6,1,6,2,0,0
+20180103,06,30,Challenger,Null,Null,Null,Hard,Plejford,Yasika O.,1,Pol T.,2,0,6,3,6,3,0,0
+20180104,00,53,Null,Null,Null,Null,Hard,Doxa,Cicipas S.,1,Gaske R.,2,0,6,3,6,4,0,0
+20180104,17,42,Null,Null,Null,Null,Hard,Puna,Chilich M.,1,E`rber P.-X.,2,0,6,3,6,2,0,0
+20180104,09,05,Challenger,Null,Null,Null,Hard,Bangkok,Chzhan Cz.,1,Safvat M.,2,0,6,0,6,1,0,0
+20180104,06,11,Challenger,Null,Null,Null,Hard,Numea,Ruud K.,2,Saxarov G.,0,2,6,7,4,6,0,0
+20180104,06,36,Challenger,Null,Null,Null,Hard,Plejford,Be`jns M.,2,King E`.,1,2,4,6,7,6,4,6
+20180105,07,08,Null,Null,Null,Null,Hard,Brisben,Mmo M.,2,De Minaur A.,0,2,4,6,0,6,0,0
+20180105,00,11,Null,Null,Null,Null,Hard,Doxa,Monfils G.,1,Goyovchik P.,2,0,6,3,7,6,0,0
+20180105,17,44,Null,Null,Null,Null,Hard,Puna,Chilich M.,2,Simon Zh.,1,2,6,1,3,6,2,6
+20180105,09,00,Challenger,Null,Null,Null,Hard,Bangkok,Rola B.,1,Karlovskij E.,2,0,7,6,6,4,0,0
+20180105,10,10,Challenger,Null,Null,Null,Hard,Numea,De Shepper K.,2,Fricz T.-X.,1,2,3,6,7,6,6,7
+20180105,05,30,Challenger,Null,Null,Null,Hard,Plejford,Matoshevich M.,2,Shnur B.,1,2,7,6,5,7,6,7
+20180106,09,21,Null,Null,Null,Null,Hard,Brisben,De Minaur A.,2,Xarrison R.,1,2,6,4,6,7,4,6
+20180106,21,16,Null,Null,Null,Final,Hard,Doxa,Monfils G.,1,Rublev A.,2,0,6,2,6,3,0,0
+20180106,03,54,Null,Qualification,Null,Null,Hard,Oklend,Rai A.,2,Daniel` T.,0,2,1,6,2,6,0,0
+20180106,17,45,Null,Null,Null,Final,Hard,Puna,Simon Zh.,1,Anderson K.,2,0,7,6,6,2,0,0
+20180106,05,00,Null,Qualification,Null,Null,Hard,Sidnej,Donskoj E.,1,Monro N.,2,0,6,3,6,4,0,0
+20180106,10,00,Challenger,Null,Null,Null,Hard,Bangkok,Granol`ers M.,1,Rola B.,2,0,6,2,6,3,0,0
+20180106,10,05,Challenger,Qualification,Null,Null,Hard,Bangkok,Tanasugarn Ch.,1,Srirat T.,2,0,6,0,6,2,0,0
+20180106,11,00,Challenger,Null,Null,Final,Hard,Numea,Rubin N.,1,Fricz T.-X.,2,0,7,5,6,4,0,0
+20180106,05,44,Challenger,Null,Null,Null,Hard,Plejford,Opelka R.,2,Kubler Dzh.,0,2,6,7,3,6,0,0
+20180107,15,07,Null,Null,Null,Final,Hard,Brisben,Kirgios N.,1,Xarrison R.,2,0,6,4,6,2,0,0
+20180107,04,00,Null,Qualification,Null,Null,Hard,Oklend,Albot R.,1,Daniel` T.,2,1,5,7,6,3,6,4
+20180107,08,35,Null,Null,Null,Null,Hard,Sidnej,Lorenci P.,1,Tompson Dzh.,2,0,7,6,6,4,0,0
+20180107,06,35,Null,Qualification,Null,Null,Hard,Sidnej,Medvedev D.,1,Shafranek V.,2,0,6,2,6,4,0,0
+20180107,10,11,Challenger,Null,Null,Final,Hard,Bangkok,Granol`ers M.,1,Moraing M.,2,1,4,6,6,3,7,5
+20180107,10,08,Challenger,Qualification,Null,Null,Hard,Bangkok,Molleker R.,1,Sabanov I.,2,0,6,3,6,2,0,0
+20180107,05,00,Challenger,Qualification,Null,Null,Hard,Kanberra,Fe`nkatt T.,1,Puodzinas S.,2,0,6,4,6,4,0,0
+20180107,06,44,Challenger,Null,Null,Final,Hard,Plejford,Shnur B.,2,Kubler Dzh.,0,2,4,6,2,6,0,0
+20180108,15,30,Null,Null,Null,Null,Hard,World Tennis Challenge,Kokkinakis T.,1,Monfils G.,2,1,3,6,6,2,1,0
+20180108,05,30,Null,Null,Null,Null,Hard,Oklend,Yang D.,2,Souza Zh.,1,2,7,6,4,6,2,6
+20180108,07,07,Null,Null,Null,Null,Hard,Sidnej,Bolt A.,2,Berankis R.,1,2,7,5,5,7,4,6
+20180108,10,15,Challenger,Null,Null,Null,Hard,Bangkok,Karlovskij E.,1,Kyopfer D.,2,0,6,2,7,5,0,0
+20180108,09,00,Challenger,Qualification,Null,Null,Hard,Bangkok,Molleker R.,2,Ruusuvuori E`.,1,2,3,6,6,0,4,6
+20180108,06,36,Challenger,Null,Null,Null,Hard,Kanberra,Zhanv`e M.,1,D`ere L.,2,1,3,6,7,5,6,2
+20180108,05,02,Challenger,Qualification,Null,Null,Hard,Kanberra,Pasha N.,1,Tran B.,2,0,6,3,6,4,0,0
+20180109,08,00,Null,Null,Null,Null,Hard,World Tennis Challenge,Nadal` R.,2,Gaske R.,0,2,4,6,5,7,0,0
+20180109,07,15,Null,Null,Null,Null,Hard,Sidnej,Zverev M.,2,Majer L.,0,2,5,7,3,6,0,0
+20180109,09,00,Challenger,Null,Null,Null,Hard,Bangkok,Kongkar K.,2,Bega A.,0,2,5,7,4,6,0,0
+20180109,06,06,Challenger,Null,Null,Null,Hard,Kanberra,Pyucz T.,1,Kvon S. V.,2,1,5,7,7,6,6,4
+20180110,15,30,Null,Null,Null,Null,Unknown Court,World Tennis Challenge,Kokkinakis T.,2,Tiafo F.,1,2,7,6,4,6,0,1
+20180110,05,42,Null,Null,Null,Null,Hard,Oklend,Dzhonson S.,2,Bautista-Agut R.,1,2,6,2,2,6,1,6
+20180110,08,11,Null,Null,Null,Null,Hard,Sidnej,Ramos-Vinolas A.,2,Lorenci P.,0,2,3,6,5,7,0,0
+20180110,12,41,Challenger,Null,Null,Null,Hard,Bangkok,Moraing M.,1,Isaro P.,2,0,6,2,6,3,0,0
+20180110,05,30,Challenger,Null,Null,Null,Hard,Kanberra,Sela D.,2,Gren`e U.,0,2,6,7,1,6,0,0
+20180111,05,42,Null,Null,Null,Null,Hard,Oklend,Vesely` I.,2,Bautista-Agut R.,0,2,6,7,2,6,0,0
+20180111,08,00,Null,Null,Null,Null,Hard,Sidnej,Fon`ini F.,1,Mannarino A.,2,1,6,7,7,6,6,2
+20180111,09,09,Challenger,Null,Null,Null,Hard,Bangkok,Viola Mat.,1,Trongcharoenchaikul V.,2,0,6,4,7,6,0,0
+20180111,07,39,Challenger,Null,Null,Null,Hard,Kanberra,Benshetri E`.,2,Zhanv`e M.,0,2,4,6,2,6,0,0
+20180112,10,13,Null,Null,Null,Null,Hard,Oklend,Xaase R.,2,Bautista-Agut R.,1,2,7,6,6,7,6,7
+20180112,11,30,Null,Null,Null,Null,Hard,Sidnej,Medvedev D.,1,Fon`ini F.,2,1,2,6,6,4,6,1
+20180112,09,13,Challenger,Null,Null,Null,Hard,Bangkok,Viola Mat.,2,Lopes-Peres E`.,0,2,5,7,6,7,0,0
+20180112,06,09,Challenger,Null,Null,Null,Hard,Kanberra,Fuchovich M.,1,Zhanv`e M.,2,1,6,3,4,6,6,2
+20180113,07,54,Null,Null,Null,Final,Hard,Oklend,Bautista-Agut R.,1,Del` Potro X.-M.,2,1,6,1,4,6,7,5
+20180113,14,09,Null,Null,Null,Final,Hard,Sidnej,Medvedev D.,1,De Minaur A.,2,1,1,6,6,4,7,5
+20180113,09,00,Challenger,Null,Null,Null,Hard,Bangkok,Moraing M.,2,Lopes-Peres E`.,1,2,7,6,1,6,6,7
+20180113,06,14,Challenger,Null,Null,Final,Hard,Kanberra,Fuchovich M.,2,Seppi A.,1,2,7,5,4,6,3,6
+20180114,10,12,Challenger,Null,Null,Final,Hard,Bangkok,Granol`ers M.,1,Lopes-Peres E`.,2,1,4,6,6,2,6,0
+20180114,15,00,Challenger,Qualification,Null,Null,Hard,Koblencz,Rojter Ya.,2,Bossel` A.,1,2,6,2,4,6,1,6
+20180115,00,30,Challenger,Qualification,Null,Null,Hard,Koblencz,Vel`t M.,2,Bega A.,0,2,0,6,1,6,0,0
+20180116,16,00,Challenger,Null,Null,Null,Hard,Koblencz,Uchiyama Ya.,1,Myoller M.,2,0,6,3,6,1,0,0
+20180116,00,10,Challenger,Qualification,Null,Null,Hard,Koblencz,Xejman K.,1,Bega A.,2,0,6,1,6,4,0,0
+20180117,00,10,Challenger,Null,Null,Null,Hard,Koblencz,Robredo T.,2,Choinski Ya.,1,2,1,6,7,5,6,7
+20180118,00,45,Challenger,Null,Null,Null,Hard,Koblencz,Kun N.,1,Imer M.,2,0,6,3,6,3,0,0
+20180119,00,35,Challenger,Null,Null,Null,Hard,Koblencz,Xassan B.,2,De Shepper K.,1,2,7,6,1,6,4,6
+20180120,00,25,Challenger,Null,Null,Null,Hard,Koblencz,Safvat M.,2,Staxovskij S.,0,2,2,6,1,6,0,0
+20180120,15,00,Challenger,Qualification,Null,Null,Hard,Renn,Vandenbul`ke Ya.,2,Martines Portero P.,0,2,4,6,4,6,0,0
+20180121,19,00,Challenger,Null,Null,Final,Hard,Koblencz,De Shepper K.,2,Moraing M.,0,2,2,6,1,6,0,0
+20180121,00,11,Challenger,Qualification,Null,Null,Hard,N`yuport-Bich,Xalebian A.,2,Galan D. E`.,0,2,3,6,2,6,0,0
+20180121,00,07,Challenger,Qualification,Null,Null,Hard,Renn,Trungelliti M.,1,Gajo F.,2,0,6,3,6,2,0,0
+20180122,00,09,Challenger,Qualification,Null,Null,Hard,N`yuport-Bich,She`jn R.,2,Galan D. E`.,1,2,5,7,7,6,2,6
+20180122,16,14,Challenger,Null,Null,Null,Hard,Renn,Saxarov G.,1,Umber U.,2,1,6,3,4,6,6,3
+20180123,01,44,Challenger,Null,Null,Null,Hard,N`yuport-Bich,Kechmanovich M.,1,Tiafo F.,2,1,6,4,3,6,6,3
+20180123,00,07,Challenger,Qualification,Null,Null,Hard,N`yuport-Bich,Xil`cik Dzh.,2,Garin K.,0,2,4,6,3,6,0,0
+20180123,00,02,Challenger,Null,Null,Null,Hard,Renn,Zhanv`e M.,1,Robredo T.,2,0,7,6,6,4,0,0
+20180124,00,13,Challenger,Null,Null,Null,Hard,N`yuport-Bich,Xanfmann Ya.,2,Klan B.,0,2,4,6,3,6,0,0
+20180124,00,03,Challenger,Null,Null,Null,Hard,Renn,Xalis K.,1,Lamazin T.,2,0,6,1,7,6,0,0
+20180125,00,14,Challenger,Null,Null,Null,Hard,N`yuport-Bich,Kozlov S.,2,Kechmanovich M.,0,2,3,6,4,6,0,0
+20180125,00,19,Challenger,Null,Null,Null,Hard,Renn,Yuzhny`j M.,2,Saxarov G.,0,2,4,6,1,6,0,0
+20180126,00,14,Challenger,Null,Null,Null,Hard,N`yuport-Bich,Mmo M.,2,King D.,1,2,6,1,2,6,1,6
+20180126,00,47,Challenger,Null,Null,Null,Hard,Renn,Ginar M.,1,Gulbis E`.,2,1,3,6,6,3,6,4
+20180127,05,00,Challenger,Qualification,Null,Null,Hard,Berni,Matoshevich M.,2,Zhurbin A.,0,2,2,6,4,6,0,0
+20180127,15,08,Challenger,Qualification,Null,Null,Hard,Kemper,E`on Zh.,2,Denolli K.,1,2,1,6,7,6,3,6
+20180127,00,10,Challenger,Null,Null,Null,Hard,N`yuport-Bich,King D.,2,Garin K.,1,2,7,5,2,6,3,6
+20180127,00,00,Challenger,Null,Null,Null,Hard,Renn,Ginar M.,2,Broadi L.,0,2,4,6,4,6,0,0
+20180128,08,00,Challenger,Qualification,Null,Null,Hard,Berni,Uchida K.,2,Karuana L.,1,2,6,3,2,6,4,6
+20180128,00,28,Challenger,Qualification,Null,Null,Hard,Dallas,Xavort Kr.-G.,2,Satral Ya.,0,2,3,6,2,6,0,0
+20180128,15,00,Challenger,Qualification,Null,Null,Hard,Kemper,Kravchuk K.,2,Umber U.,0,2,6,7,3,6,0,0
+20180128,00,08,Challenger,Null,Null,Null,Hard,N`yuport-Bich,Garin K.,2,Klan B.,1,2,3,6,6,0,4,6
+20180128,21,28,Challenger,Null,Null,Final,Hard,Renn,Berankis R.,2,Pospishil V.,0,2,1,6,2,6,0,0
+20180129,00,18,Challenger,Qualification,Null,Null,Hard,Dallas,Kyopfer D.,1,Chappell N.,2,0,6,4,6,4,0,0
+20180129,19,38,Challenger,Null,Null,Null,Hard,Kemper,Taberner K.,2,Napolitano S.,0,2,4,6,1,6,0,0
+20180129,16,07,Challenger,Qualification,Null,Null,Hard,Kemper,Umber U.,2,Zhanv`e M.,1,2,6,7,7,6,4,6
+20180129,00,12,Challenger,Null,Null,Final,Hard,N`yuport-Bich,Fricz T.-X.,1,Klan B.,2,1,3,6,7,5,6,0
+20180130,05,00,Challenger,Null,Null,Null,Hard,Berni,Li Ch.,1,Fanzelov S.,2,0,7,5,6,4,0,0
+20180130,00,48,Challenger,Null,Null,Null,Hard,Dallas,Makdonal`d M.,1,Ito T.,2,0,7,5,6,3,0,0
+20180130,00,21,Challenger,Qualification,Null,Null,Hard,Dallas,Karlovskij E.,1,Olaso G.,2,1,6,7,6,1,7,6
+20180130,01,09,Challenger,Null,Null,Null,Hard,Kemper,Ignatik V.,1,Saxarov G.,2,1,6,3,4,6,6,1
+20180131,05,00,Challenger,Null,Null,Null,Hard,Berni,Al`tmajer D.,1,Xarrison K.,2,0,6,0,6,4,0,0
+20180131,00,47,Challenger,Null,Null,Null,Hard,Dallas,Kudla D.,1,Kipson P.,2,0,6,3,6,1,0,0
+20180131,01,13,Challenger,Null,Null,Null,Hard,Kemper,De Grif A.,2,Millo V.,0,2,2,6,4,6,0,0
+20180201,06,00,Challenger,Null,Null,Null,Hard,Berni,Robe`r S.,1,King E`.,2,0,6,1,6,4,0,0
+20180201,00,20,Challenger,Null,Null,Null,Hard,Dallas,Kyopfer D.,1,Olivejra G.,2,0,6,0,7,5,0,0
+20180201,01,38,Challenger,Null,Null,Null,Hard,Kemper,Braun D.,2,Zhanv`e M.,1,2,3,6,7,6,2,6
+20180202,10,40,Challenger,Null,Null,Null,Hard,Berni,Kubler Dzh.,2,Al`tmajer D.,1,2,3,6,6,2,2,6
+20180202,01,09,Challenger,Null,Null,Null,Hard,Dallas,Smy`chek T.,2,Makdonal`d M.,0,2,4,6,2,6,0,0
+20180202,01,46,Challenger,Null,Null,Null,Hard,Kemper,Cicipas S.,1,Xoan A.,2,1,6,4,5,7,6,4
+20180203,22,14,Null,Qualification,Null,Null,Clay,Kito,Sakamoto P.,1,Mun`os de La Nava D.,2,1,3,6,6,4,6,4
+20180203,09,00,Challenger,Null,Null,Final,Hard,Berni,Al`tmajer D.,2,Robe`r S.,0,2,1,6,2,6,0,0
+20180203,14,30,Challenger,Qualification,Null,Null,Hard,Budapesht,E`skoff`e A.,2,Bega A.,0,2,3,6,5,7,0,0
+20180203,03,14,Challenger,Null,Null,Null,Hard,Dallas,Nishikori K.,1,Yung Dzh.,2,0,6,4,6,4,0,0
+20180203,02,06,Challenger,Null,Null,Null,Hard,Kemper,Zhanv`e M.,2,Xalis K.,0,2,6,7,2,6,0,0
+20180203,05,00,Challenger,Qualification,Null,Null,Hard,Lonseston,Bursh`e E`.,2,Bangura S.,0,2,5,7,1,6,0,0
+20180204,00,10,Null,Qualification,Null,Null,Clay,Kito,Dzhannessi A.,1,Londera X.-I.,2,0,6,4,6,4,0,0
+20180204,15,30,Null,Qualification,Null,Null,Hard,Monpel`e,Millo V.,1,Saxarov G.,2,0,6,3,7,6,0,0
+20180204,16,05,Null,Qualification,Null,Null,Hard,Sofiya,Majer F.,1,Smit Dzh.-P.,2,0,7,6,7,6,0,0
+20180204,00,25,Challenger,Qualification,Null,Null,Hard,Budapesht,Nouza P,2,Yankovicz Ya.,1,2,5,7,7,6,5,7
+20180204,09,10,Challenger,Null,Null,Final,Hard,Dallas,Nishikori K.,1,Makdonal`d M.,2,0,6,1,6,4,0,0
+20180204,21,30,Challenger,Null,Null,Final,Hard,Kemper,Xalis K.,1,Vatutin A.,2,0,6,3,7,6,0,0
+20180204,05,00,Challenger,Qualification,Null,Null,Hard,Lonseston,Katarina L.,1,E`llis B.,2,0,6,4,6,2,0,0
+20180204,01,09,Challenger,Qualification,Null,Null,Hard,San-Francisko,Zlobinskij Yu.,2,Xalebian A.,0,2,3,6,3,6,0,0
+20180205,23,00,Null,Null,Null,Null,Clay,Kito,Mute K.,1,Menendes-Masejras A.,2,1,6,4,6,7,6,2
+20180205,00,45,Null,Qualification,Null,Null,Clay,Kito,Bagnis F.,1,Souza Zh.,2,0,6,3,6,4,0,0
+20180205,17,00,Null,Qualification,Null,Null,Hard,Monpel`e,Trungelliti M.,2,Taberner K.,1,2,6,4,2,6,4,6
+20180205,20,00,Null,Null,Null,Null,Hard,Sofiya,Donskoj E.,2,Laczko L.,0,2,4,6,4,6,0,0
+20180205,16,00,Null,Qualification,Null,Null,Hard,Sofiya,Majer F.,2,Gulbis E`.,0,2,4,6,1,6,0,0
+20180205,20,20,Challenger,Null,Null,Null,Hard,Budapesht,Arnabol`di A.,2,Kun N.,1,2,6,7,6,4,4,6
+20180205,16,00,Challenger,Qualification,Null,Null,Hard,Budapesht,Yan Dzh.,1,Bega A.,2,0,6,2,7,6,0,0
+20180205,08,20,Challenger,Null,Null,Null,Hard,Lonseston,Sarkisyan A.,1,Xarrison K.,2,0,6,3,6,3,0,0
+20180205,05,07,Challenger,Qualification,Null,Null,Hard,Lonseston,Luk M.,2,Lammons N.,1,2,6,7,6,3,3,6
+20180205,03,05,Challenger,Qualification,Null,Null,Hard,San-Francisko,Xil`cik Dzh.,1,Kandat M.,2,0,6,4,6,4,0,0
+20180206,01,10,Null,Null,Null,Null,Clay,Kito,Dutra Sil`va R.,2,Martin An.,0,2,5,7,4,6,0,0
+20180206,00,09,Null,Null,Null,Null,Hard,Monpel`e,Pe`r B.,1,Zverev M.,2,0,6,4,6,4,0,0
+20180206,16,00,Challenger,Null,Null,Null,Hard,Budapesht,Setkich A.,2,Kolar Z.,1,2,5,7,7,5,1,6
+20180206,05,00,Challenger,Null,Null,Null,Hard,Lonseston,King K.,1,Petrovich D.,2,0,6,2,7,5,0,0
+20180207,01,13,Null,Null,Null,Null,Clay,Kito,Xanfmann Ya.,2,Kiroz R.,0,2,6,7,3,6,0,0
+20180207,00,10,Null,Null,Null,Null,Hard,Monpel`e,Simon Zh.,1,Maden Ya.,2,1,6,1,4,6,7,6
+20180207,16,08,Null,Null,Null,Null,Hard,Sofiya,Xaase R.,2,Kopil M.,0,2,6,7,4,6,0,0
+20180207,01,09,Challenger,Null,Null,Null,Hard,Budapesht,Piros Z.,2,Zopp Yu.,0,2,4,6,6,7,0,0
+20180207,05,10,Challenger,Null,Null,Null,Hard,Lonseston,Granol`ers-Pujol` M.,1,Koppeyans K.,2,0,6,0,6,1,0,0
+20180207,03,07,Challenger,Null,Null,Null,Hard,San-Francisko,Garin K.,2,Mmo M.,0,2,2,6,3,6,0,0
+20180208,23,11,Null,Null,Null,Null,Clay,Kito,E`strel`ya Burgos V.,2,Mel`cer G.,1,2,6,4,1,6,4,6
+20180208,00,00,Null,Null,Null,Null,Hard,Monpel`e,Goffin D.,1,Simon Zh.,2,0,6,4,6,2,0,0
+20180208,00,11,Null,Null,Null,Null,Hard,Sofiya,Kol`shrajber F.,2,Bashich M.,0,2,5,7,6,7,0,0
+20180208,01,10,Challenger,Null,Null,Null,Hard,Budapesht,Fuchovich M.,1,Balash A.,2,0,7,5,6,0,0,0
+20180208,06,07,Challenger,Null,Null,Null,Hard,Lonseston,Mozli B.,1,Robe`r S.,2,0,7,6,6,4,0,0
+20180208,03,07,Challenger,Null,Null,Null,Hard,San-Francisko,Kryuger M.,2,Klan B.,1,2,7,6,4,6,4,6
+20180209,01,29,Null,Null,Null,Null,Clay,Kito,Kiroz R.,2,Ramos-Vinolas A.,1,2,3,6,6,3,3,6
+20180209,00,10,Null,Null,Null,Null,Hard,Monpel`e,Taberner K.,2,Puje L.,0,2,1,6,2,6,0,0
+20180209,16,00,Null,Null,Null,Null,Hard,Sofiya,Kopil M.,1,Myuller Zh.,2,0,6,4,6,4,0,0
+20180209,01,00,Challenger,Null,Null,Null,Hard,Budapesht,Fuchovich M.,1,Gurkach X.,2,1,6,7,6,3,6,4
+20180209,06,11,Challenger,Null,Null,Null,Hard,Lonseston,Granol`ers-Pujol` M.,1,Sarkisyan A.,2,1,6,1,3,6,6,3
+20180209,04,08,Challenger,Null,Null,Null,Hard,San-Francisko,Novikov D.,1,Galan D. E`.,2,1,5,7,6,3,6,4
+20180210,20,00,Null,Qualification,Null,Null,Clay,Bue`nos-Ajres,Klezar G.,1,Olivo R.,2,0,7,5,6,0,0,0
+20180210,01,23,Null,Null,Null,Null,Clay,Kito,Martin An.,1,Mute K.,2,0,6,3,6,4,0,0
+20180210,00,00,Null,Null,Null,Null,Hard,Monpel`e,Rublev A.,2,Tsonga Zh.-V.,0,2,4,6,6,7,0,0
+20180210,16,00,Null,Qualification,Null,Null,Hard,Rotterdam,Istomin D.,2,Bemel`mans R.,0,2,4,6,4,6,0,0
+20180210,18,00,Null,Null,Null,Null,Hard,Sofiya,Kopil M.,1,Kovalik J.,2,0,6,4,6,2,0,0
+20180210,22,00,Challenger,Null,Null,Null,Hard,Budapesht,Fuchovich M.,2,Kun N.,0,2,3,6,6,7,0,0
+20180210,06,07,Challenger,Null,Null,Null,Hard,Lonseston,Granol`ers-Pujol` M.,2,Mozli B.,1,2,3,6,6,3,6,7
+20180210,04,07,Challenger,Null,Null,Null,Hard,San-Francisko,Novikov D.,1,Pelivo F.,2,0,7,5,7,5,0,0
+20180210,10,30,Challenger,Qualification,Null,Null,Hard,Chennaj,Nenvani A.,2,Prabodx S.,1,2,4,6,7,6,4,6
+20180210,15,30,Challenger,Qualification,Null,Null,Hard,Sherbur,De Shepper Zh.,1,Moriya X.,2,0,7,5,6,2,0,0
+20180211,01,00,Null,Qualification,Null,Null,Clay,Bue`nos-Ajres,Belluchchi T.,1,Galarsa X.-I.,2,0,6,4,6,4,0,0
+20180211,00,00,Null,Null,Null,Null,Clay,Kito,Martin An.,2,Karbal`es Bae`na R.,1,2,6,4,3,6,2,6
+20180211,19,30,Null,Null,Null,Final,Hard,Monpel`e,Gaske R.,2,Puje L.,0,2,6,7,4,6,0,0
+20180211,22,10,Null,Qualification,Null,Null,Hard,N`yu-Jork,Norri K.,2,Broadi L.,0,2,4,6,6,7,0,0
+20180211,16,00,Null,Qualification,Null,Null,Hard,Rotterdam,Medvedev D.,1,Mayu N.,2,0,6,4,6,4,0,0
+20180211,21,00,Null,Null,Null,Final,Hard,Sofiya,Bashich M.,1,Kopil M.,2,1,7,6,6,7,6,4
+20180211,00,00,Challenger,Null,Null,Null,Hard,Budapesht,Miloevich N.,2,Pospishil V.,1,2,5,7,6,4,4,6
+20180211,20,00,Challenger,Null,Null,Final,Hard,Budapesht,Kun N.,2,Pospishil V.,1,2,6,7,6,3,3,6
+20180211,07,55,Challenger,Null,Null,Final,Hard,Lonseston,Mozli B.,2,Polmans M.,0,2,2,6,2,6,0,0
+20180211,07,30,Challenger,Null,Null,Null,Hard,San-Francisko,Novikov D.,2,Kyopfer D.,0,2,3,6,1,6,0,0
+20180211,16,00,Challenger,Qualification,Null,Null,Hard,Sherbur,Klark Dzh.,1,De Shepper Zh.,2,0,6,4,6,2,0,0
+20180212,23,08,Null,Null,Null,Null,Clay,Bue`nos-Ajres,Lajovich D.,1,Bagnis F.,2,0,7,6,6,1,0,0
+20180212,00,56,Null,Qualification,Null,Null,Clay,Bue`nos-Ajres,Chekkinato M.,1,Ruud K.,2,0,6,3,7,6,0,0
+20180212,00,10,Null,Null,Null,Final,Clay,Kito,Karbal`es Bae`na R.,1,Ramos-Vinolas A.,2,1,6,3,4,6,6,4
+20180212,00,06,Null,Qualification,Null,Null,Hard,N`yu-Jork,Daniel` T.,2,Ibe`nks K.,0,2,5,7,3,6,0,0
+20180212,06,06,Challenger,Null,Null,Final,Hard,San-Francisko,Kyopfer D.,2,Yung Dzh.,1,2,4,6,6,2,6,7
+20180212,10,37,Challenger,Null,Null,Null,Hard,Chennaj,Kadxe A.,1,Mineni S.,2,1,6,7,6,3,6,4
+20180212,17,09,Challenger,Null,Null,Null,Hard,Sherbur,Taberner K.,2,Vatutin A.,0,2,1,6,1,6,0,0
+20180212,16,09,Challenger,Qualification,Null,Null,Hard,Sherbur,Myuller A.,2,Butill`e R.,0,2,3,6,1,6,0,0
+20180213,02,38,Null,Null,Null,Null,Clay,Bue`nos-Ajres,Belluchchi T.,1,Kachin P.,2,0,6,2,6,1,0,0
+20180213,04,12,Null,Null,Null,Null,Hard,N`yu-Jork,Sela D.,1,Basilashvili N.,2,0,6,4,6,4,0,0
+20180213,00,03,Null,Qualification,Null,Null,Hard,N`yu-Jork,Ibe`nks K.,2,E`skobedo E`.,1,2,7,5,4,6,4,6
+20180213,00,30,Null,Null,Null,Null,Hard,Rotterdam,Zverev A.,1,Ferrer D.,2,0,6,4,6,3,0,0
+20180213,10,37,Challenger,Null,Null,Null,Hard,Chennaj,Tompson Dzh.,1,Maamun K.-M.,2,0,6,4,6,2,0,0
+20180213,01,30,Challenger,Null,Null,Null,Hard,Sherbur,Lest`enn K.,1,Novak D.,2,0,6,1,6,2,0,0
+20180214,00,38,Null,Null,Null,Null,Clay,Bue`nos-Ajres,Montejro T.-M.,2,Verdasko F.,0,2,2,6,5,7,0,0
+20180214,00,04,Null,Null,Null,Null,Hard,N`yu-Jork,Dzhonson S.,2,Menendes-Masejras A.,1,2,6,1,3,6,6,7
+20180214,00,30,Null,Null,Null,Null,Hard,Rotterdam,Grikspur T.,1,Vavrinka S.,2,1,4,6,6,3,6,2
+20180214,10,30,Challenger,Null,Null,Null,Hard,Chennaj,Ravat S.,2,Bxambri Yu.,0,2,2,6,3,6,0,0
+20180214,00,20,Challenger,Null,Null,Null,Hard,Sherbur,Tabatruong M.,2,Berrettini M.,1,2,7,6,5,7,4,6
+20180215,00,56,Null,Null,Null,Null,Clay,Bue`nos-Ajres,Bedene Al.,1,Ramos-Vinolas A.,2,1,3,6,7,5,6,1
+20180215,00,41,Null,Null,Null,Null,Hard,Rotterdam,Federer R.,1,Bemel`mans R.,2,0,6,1,6,2,0,0
+20180215,01,05,Challenger,Null,Null,Null,Hard,Sherbur,Pavlashek A.,2,Berrettini M.,0,2,3,6,6,7,0,0
+20180216,02,15,Null,Null,Null,Null,Clay,Bue`nos-Ajres,E`lias G.,2,Del`bonis F.,0,2,6,7,6,7,0,0
+20180216,00,06,Null,Null,Null,Null,Hard,N`yu-Jork,Tiafo F.,1,Sela D.,2,1,6,4,3,6,6,0
+20180216,00,41,Null,Null,Null,Null,Hard,Rotterdam,Federer R.,1,Kol`shrajber F.,2,0,7,6,7,5,0,0
+20180216,11,30,Challenger,Null,Null,Null,Hard,Chennaj,Li D.-X.,2,Bxambri Yu.,0,2,5,7,2,6,0,0
+20180216,00,41,Challenger,Null,Null,Null,Hard,Sherbur,Imer M.,1,Saxarov G.,2,0,6,4,6,4,0,0
+20180217,01,04,Null,Null,Null,Null,Clay,Bue`nos-Ajres,Shvarczman D.-S.,2,Bedene Al.,0,2,4,6,4,6,0,0
+20180217,22,13,Null,Qualification,Null,Null,Hard,Delre`j-Bich,Smy`chek T.,2,King D.,1,2,3,6,7,5,4,6
+20180217,00,13,Null,Null,Null,Null,Hard,N`yu-Jork,Menendes-Masejras A.,2,Mannarino A.,1,2,5,7,6,2,3,6
+20180217,00,41,Null,Null,Null,Null,Hard,Rotterdam,Federer R.,1,Xaase R.,2,1,4,6,6,1,6,1
+20180217,14,44,Challenger,Qualification,Null,Null,Hard,Bergamo,Bodmer A.,1,Lamazin T.,2,0,7,6,6,3,0,0
+20180217,07,00,Challenger,Qualification,Null,Null,Hard,Kioto,Li Ch.,1,Kishi R.,2,0,6,3,6,1,0,0
+20180217,21,11,Challenger,Qualification,Null,Null,Hard,Morelos,Roelofse R.,1,Gonzales R.,2,0,6,4,6,4,0,0
+20180217,15,26,Challenger,Null,Null,Final,Hard,Chennaj,Tompson Dzh.,1,Bxambri Yu.,2,1,7,5,3,6,7,5
+20180217,19,30,Challenger,Null,Null,Null,Hard,Sherbur,Moraing M.,2,Lest`enn K.,0,2,3,6,4,6,0,0
+20180218,01,45,Null,Null,Null,Null,Clay,Bue`nos-Ajres,Tim D.,1,Monfils G.,2,0,6,2,6,1,0,0
+20180218,23,20,Null,Null,Null,Final,Clay,Bue`nos-Ajres,Tim D.,1,Bedene Al.,2,0,6,2,6,4,0,0
+20180218,00,52,Null,Qualification,Null,Null,Hard,Delre`j-Bich,Kozlov S.,2,Ramanatxan R.,0,2,3,6,2,6,0,0
+20180218,15,00,Null,Qualification,Null,Null,Hard,Marsel`,Bemel`mans R.,1,Marti X.,2,0,6,1,6,1,0,0
+20180218,00,10,Null,Null,Null,Null,Hard,N`yu-Jork,Mannarino A.,2,Kue`rri S.,1,2,7,6,5,7,3,6
+20180218,00,30,Null,Null,Null,Null,Hard,Rotterdam,Federer R.,1,Seppi A.,2,0,6,3,7,6,0,0
+20180218,20,42,Null,Null,Null,Final,Hard,Rotterdam,Federer R.,1,Dimitrov G.,2,0,6,2,6,2,0,0
+20180218,00,20,Challenger,Qualification,Null,Null,Hard,Bergamo,Yan Dzh.,2,Goranski F.,0,2,4,6,2,6,0,0
+20180218,07,10,Challenger,Qualification,Null,Null,Hard,Kioto,Tanuma R.,2,Fudzhii Sh.,0,2,3,6,5,7,0,0
+20180218,00,46,Challenger,Qualification,Null,Null,Hard,Morelos,Gomes L.,1,Rodriges Rodriges X.-A.,2,0,6,3,6,0,0,0
+20180218,20,45,Challenger,Null,Null,Final,Hard,Sherbur,Lest`enn K.,2,Marterer M.,0,2,4,6,5,7,0,0
+20180219,00,49,Null,Qualification,Null,Null,Hard,Delre`j-Bich,Skugor F.,1,Polanski P.,2,0,6,2,6,4,0,0
+20180219,20,10,Null,Null,Null,Null,Hard,Marsel`,Kukushkin M.,2,Dzhumxur D.,1,2,7,6,6,7,1,6
+20180219,17,00,Null,Qualification,Null,Null,Hard,Marsel`,Bemel`mans R.,1,E`meri K.,2,0,6,4,6,4,0,0
+20180219,02,42,Null,Null,Null,Final,Hard,N`yu-Jork,Anderson K.,1,Kue`rri S.,2,1,4,6,6,3,7,6
+20180219,01,09,Null,Qualification,Null,Null,Clay,Rio-de-Zhanejro,Chekkinato M.,1,Olivo R.,2,0,7,6,6,2,0,0
+20180219,21,40,Challenger,Null,Null,Null,Hard,Bergamo,Safvat M.,1,Bonci B.,2,1,7,5,3,6,6,2
+20180219,15,00,Challenger,Qualification,Null,Null,Hard,Bergamo,Grigelis L.,1,Yankovicz Ya.,2,0,7,5,7,5,0,0
+20180219,10,50,Challenger,Null,Null,Null,Hard,Kioto,Soeda G.,1,Vatanuki Yo.,2,1,7,6,0,6,7,6
+20180219,08,09,Challenger,Qualification,Null,Null,Hard,Kioto,Li Ch.,1,Fudzhii Sh.,2,0,6,4,6,3,0,0
+20180219,22,30,Challenger,Null,Null,Null,Hard,Morelos,Ibe`nks K.,1,Shol`cz N.,2,0,6,3,6,4,0,0
+20180219,00,42,Challenger,Qualification,Null,Null,Hard,Morelos,Fanzelov S.,1,Agamenon F.,2,1,4,6,6,1,6,1
+20180220,01,03,Null,Null,Null,Null,Hard,Delre`j-Bich,Chon X.,1,Norri K.,2,1,3,6,6,3,6,1
+20180220,00,11,Null,Null,Null,Null,Hard,Marsel`,Zhaziri M.,2,Benneto Zh.,0,2,4,6,3,6,0,0
+20180220,01,41,Null,Null,Null,Null,Clay,Rio-de-Zhanejro,Garsiya-Lopes G.,2,Dzharri N.,0,2,3,6,6,7,0,0
+20180220,00,11,Challenger,Null,Null,Null,Hard,Bergamo,Zopp Yu.,1,Sapata-Miralles B.,2,1,4,6,6,2,6,2
+20180220,07,30,Challenger,Null,Null,Null,Hard,Kioto,Klejn B.,1,Chzhan Cz.,2,1,6,3,3,6,7,6
+20180220,00,12,Challenger,Null,Null,Null,Hard,Morelos,Choinski Ya.,2,Pavich A.,0,2,4,6,3,6,0,0
+20180221,00,10,Null,Null,Null,Null,Hard,Delre`j-Bich,Skugor F.,1,Bublik A.,2,0,6,2,7,5,0,0
+20180221,00,00,Null,Null,Null,Null,Hard,Marsel`,Marterer M.,2,Simon Zh.,0,2,6,7,6,7,0,0
+20180221,01,30,Null,Null,Null,Null,Clay,Rio-de-Zhanejro,Montejro T.-M.,2,Kue`vas P.,1,2,7,6,6,7,3,6
+20180221,01,51,Challenger,Null,Null,Null,Hard,Bergamo,Setkich A.,2,Gulbis E`.,0,2,3,6,6,7,0,0
+20180221,07,30,Challenger,Null,Null,Null,Hard,Kioto,Uchiyama Ya.,2,Pshisezhny` M.,1,2,6,4,4,6,6,7
+20180221,00,11,Challenger,Null,Null,Null,Hard,Morelos,Martin An.,1,Kiroz R.,2,1,6,2,5,7,7,5
+20180222,02,34,Null,Null,Null,Null,Hard,Delre`j-Bich,Dzhonson S.,1,Raonich M.,2,0,6,2,6,4,0,0
+20180222,00,00,Null,Null,Null,Null,Hard,Marsel`,E`rber P.-X.,2,Puje L.,1,2,6,3,6,7,4,6
+20180222,01,41,Null,Null,Null,Null,Clay,Rio-de-Zhanejro,Ramos-Vinolas A.,2,Dzharri N.,0,2,5,7,3,6,0,0
+20180222,01,37,Challenger,Null,Null,Null,Hard,Bergamo,Berrettini M.,1,Viola Mat.,2,0,6,3,6,1,0,0
+20180222,07,40,Challenger,Null,Null,Null,Hard,Kioto,Kravchuk K.,2,Tompson Dzh.,0,2,3,6,1,6,0,0
+20180222,00,03,Challenger,Null,Null,Null,Hard,Morelos,Pavich A.,2,Novikov D.,0,2,4,6,6,7,0,0
+20180223,02,19,Null,Null,Null,Null,Hard,Delre`j-Bich,Yuzhny`j M.,2,Fricz T.-X.,1,2,1,6,6,4,3,6
+20180223,00,12,Null,Null,Null,Null,Hard,Marsel`,Berdy`x T.,1,Traval`ya S.,2,1,5,7,7,6,6,3
+20180223,01,45,Null,Null,Null,Null,Clay,Rio-de-Zhanejro,Bedene Al.,1,Karreno-Busta P.,2,1,6,2,5,7,6,2
+20180223,01,38,Challenger,Null,Null,Null,Hard,Bergamo,Berrettini M.,1,Lest`enn K.,2,1,6,4,6,7,7,5
+20180223,08,30,Challenger,Null,Null,Null,Hard,Kioto,Kamke T.,2,Pyucz T.,0,2,4,6,0,6,0,0
+20180223,00,39,Challenger,Null,Null,Null,Hard,Morelos,Sarkisyan A.,2,Novikov D.,0,2,1,6,6,7,0,0
+20180224,01,39,Null,Null,Null,Null,Hard,Delre`j-Bich,Opelka R.,2,Goyovchik P.,0,2,6,7,3,6,0,0
+20180224,13,00,Null,Qualification,Null,Null,Hard,Dubaj,Xalis K.,1,Baxinger M.,2,0,6,4,6,1,0,0
+20180224,00,10,Null,Null,Null,Null,Hard,Marsel`,Krajinovich F.,2,Puje L.,1,2,6,7,6,3,4,6
+20180224,01,03,Null,Null,Null,Null,Clay,Rio-de-Zhanejro,Dzharri N.,1,Kue`vas P.,2,0,7,5,6,3,0,0
+20180224,20,00,Null,Qualification,Null,Null,Clay,San-Paulu,Ofner S.,1,Matos R.,2,0,6,3,6,4,0,0
+20180224,00,05,Challenger,Null,Null,Null,Hard,Bergamo,Berrettini M.,1,Karuzo S.,2,0,7,6,7,5,0,0
+20180224,07,00,Challenger,Qualification,Null,Null,Hard,Jokogama,Be`jns M.,1,Imai Sh.,2,1,7,6,1,6,7,6
+20180224,08,30,Challenger,Null,Null,Null,Hard,Kioto,Pyucz T.,2,Tompson Dzh.,1,2,6,3,5,7,4,6
+20180224,02,08,Challenger,Null,Null,Null,Hard,Morelos,Novikov D.,1,Krstin P.,2,0,6,1,6,4,0,0
+20180224,20,10,Challenger,Qualification,Null,Null,Clay,Punta-del`-E`ste,Rodriges Taverna S. F.,1,Naser X.,2,0,6,4,6,4,0,0
+20180225,04,08,Null,Qualification,Null,Null,Hard,Akapul`ko,Mmo M.,2,Bublik A.,1,2,4,6,6,1,1,6
+20180225,02,10,Null,Null,Null,Null,Hard,Delre`j-Bich,Goyovchik P.,1,Dzhonson S.,2,0,7,6,6,3,0,0
+20180225,14,00,Null,Qualification,Null,Null,Hard,Dubaj,Gulbis E`.,1,Traval`ya S.,2,0,6,3,6,2,0,0
+20180225,20,00,Null,Null,Null,Final,Hard,Marsel`,Xachanov K.,1,Puje L.,2,1,7,5,3,6,7,5
+20180225,02,10,Null,Null,Null,Null,Clay,Rio-de-Zhanejro,Shvarczman D.-S.,1,Dzharri N.,2,0,7,5,6,2,0,0
+20180225,01,20,Null,Qualification,Null,Null,Clay,San-Paulu,Yamasita F.,2,Klezar G.,0,2,1,6,6,7,0,0
+20180225,01,59,Challenger,Null,Null,Null,Hard,Bergamo,Sonego L.,2,Napolitano S.,0,2,3,6,6,7,0,0
+20180225,21,47,Challenger,Null,Null,Final,Hard,Bergamo,Berrettini M.,1,Napolitano S.,2,1,6,2,3,6,6,2
+20180225,00,11,Challenger,Qualification,Null,Null,Hard,Indian-Ue`lls,Be`mbridzh L.,2,Matoshevich M.,0,2,5,7,6,7,0,0
+20180225,07,00,Challenger,Qualification,Null,Null,Hard,Jokogama,Imamura M.,1,Trongcharoenchaikul V.,2,0,6,1,6,4,0,0
+20180225,09,40,Challenger,Null,Null,Final,Hard,Kioto,Millman Dzh.,1,Tompson Dzh.,2,0,7,5,6,1,0,0
+20180225,06,38,Challenger,Null,Null,Final,Hard,Morelos,Garin K.,2,Novikov D.,0,2,4,6,3,6,0,0
+20180225,00,23,Challenger,Qualification,Null,Null,Clay,Punta-del`-E`ste,Oliel` I.,2,Agamenon F.,1,2,6,7,6,1,3,6
+20180226,05,30,Null,Qualification,Null,Null,Hard,Akapul`ko,Berankis R.,1,King K.,2,0,6,4,6,4,0,0
+20180226,02,13,Null,Null,Null,Final,Hard,Delre`j-Bich,Goyovchik P.,2,Tiafo F.,0,2,1,6,4,6,0,0
+20180226,02,13,Null,Null,Null,Final,Clay,Rio-de-Zhanejro,Shvarczman D.-S.,1,Verdasko F.,2,0,6,2,6,3,0,0
+20180226,21,30,Null,Null,Null,Null,Clay,San-Paulu,Mel`cer G.,2,Garsiya-Lopes G.,1,2,4,6,6,3,3,6
+20180226,00,15,Challenger,Qualification,Null,Null,Hard,Indian-Ue`lls,Xarrison K.,1,Matoshevich M.,2,0,6,4,6,4,0,0
+20180226,08,36,Challenger,Null,Null,Null,Hard,Jokogama,Kubler Dzh.,1,Leshem E`.,2,1,6,3,1,6,6,3
+20180226,07,00,Challenger,Qualification,Null,Null,Hard,Jokogama,Moriya X.,1,Ngujen D.,2,0,6,2,6,3,0,0
+20180226,23,06,Challenger,Null,Null,Null,Clay,Punta-del`-E`ste,Dellien X.,2,Dzhannessi A.,1,2,6,7,6,4,4,6
+20180226,00,00,Challenger,Qualification,Null,Null,Clay,Punta-del`-E`ste,Londera X.-I.,1,Saes X.-K.,2,0,6,1,6,3,0,0
+20180227,16,10,Null,Null,Null,Null,Hard,Dubaj,Xajder-Maurer A.,2,Shtruff Ya.-L.,0,2,2,6,4,6,0,0
+20180227,00,15,Null,Null,Null,Null,Clay,San-Paulu,Olivo R.,2,Domingesh Zh.,1,2,6,2,6,7,5,7
+20180227,00,13,Challenger,Null,Null,Null,Hard,Indian-Ue`lls,Korda S.,2,Gombos N.,0,2,0,6,4,6,0,0
+20180227,07,00,Challenger,Null,Null,Null,Hard,Jokogama,E`llis B.,2,Ilkel K.,0,2,3,6,4,6,0,0
+20180227,00,44,Challenger,Null,Null,Null,Clay,Punta-del`-E`ste,Argue`l`o F.,2,Gajo F.,0,2,4,6,2,6,0,0
+20180228,04,00,Null,Null,Null,Null,Hard,Akapul`ko,Nishikori K.,2,Shapovalov D.,1,2,7,6,3,6,1,6
+20180228,16,00,Null,Null,Null,Null,Hard,Dubaj,Pe`r B.,2,Chorich B.,0,2,1,6,4,6,0,0
+20180228,01,20,Null,Null,Null,Null,Clay,San-Paulu,Dutra Sil`va R.,1,Sandgren T.,2,0,6,0,6,4,0,0
+20180228,07,30,Challenger,Null,Null,Null,Hard,Jokogama,Li D.-X.,2,Ilkel K.,1,2,2,6,6,2,6,7
+20180228,00,53,Challenger,Null,Null,Null,Clay,Punta-del`-E`ste,Lopes-Peres E`.,1,Sivil`e N.,2,0,6,4,6,0,0,0
+20180301,04,00,Null,Null,Null,Null,Hard,Akapul`ko,Donal`dson Dzh.,1,E`bden M.,2,0,6,3,6,1,0,0
+20180301,17,00,Null,Null,Null,Null,Hard,Dubaj,Bautista-Agut R.,1,Chorich B.,2,0,7,6,6,4,0,0
+20180301,02,30,Null,Null,Null,Null,Clay,San-Paulu,Domingesh Zh.,2,Fon`ini F.,0,2,5,7,1,6,0,0
+20180301,00,15,Challenger,Null,Null,Null,Hard,Indian-Ue`lls,Polanski P.,1,Kozlov S.,2,0,6,2,6,4,0,0
+20180301,08,08,Challenger,Null,Null,Null,Hard,Jokogama,Ngujen D.,2,Robe`r S.,0,2,5,7,0,6,0,0
+20180301,00,40,Challenger,Null,Null,Null,Clay,Punta-del`-E`ste,Galarsa X.-I.,2,Dzhannessi A.,0,2,0,6,4,6,0,0
+20180302,04,00,Null,Null,Null,Null,Hard,Akapul`ko,Lopes F.,2,Donal`dson Dzh.,0,2,3,6,1,6,0,0
+20180302,19,23,Null,Null,Null,Null,Hard,Dubaj,Krajinovich F.,2,Puje L.,1,2,3,6,7,6,6,7
+20180302,00,05,Null,Null,Null,Null,Clay,San-Paulu,Ramos-Vinolas A.,1,Klezar G.,2,0,6,3,6,4,0,0
+20180302,08,08,Challenger,Null,Null,Null,Hard,Jokogama,Ilkel K.,1,Kamke T.,2,0,7,6,6,2,0,0
+20180302,00,35,Challenger,Null,Null,Null,Clay,Punta-del`-E`ste,Garin K.,2,Andreoczci G .,0,2,0,6,4,6,0,0
+20180303,06,05,Null,Null,Null,Null,Hard,Akapul`ko,Donal`dson Dzh.,2,Anderson K.,1,2,3,6,6,4,3,6
+20180303,21,11,Null,Null,Null,Final,Hard,Dubaj,Bautista-Agut R.,1,Puje L.,2,0,6,3,6,4,0,0
+20180303,00,45,Null,Null,Null,Null,Clay,San-Paulu,Garsiya-Lopes G.,2,Fon`ini F.,0,2,4,6,2,6,0,0
+20180303,00,00,Challenger,Null,Null,Null,Hard,Indian-Ue`lls,Klizhan M.,1,Polanski P.,2,0,6,2,6,2,0,0
+20180303,08,11,Challenger,Null,Null,Null,Hard,Jokogama,Tompson Dzh.,2,Uchiyama Ya.,0,2,4,6,5,7,0,0
+20180303,03,00,Challenger,Null,Null,Null,Clay,Punta-del`-E`ste,Bolelli S.,1,Dzhannessi A.,2,0,6,2,7,5,0,0
+20180303,19,09,Challenger,Qualification,Null,Null,Clay,Sant`yago,Marti X.,1,Lipovsek Puches T.,2,0,6,2,6,2,0,0
+20180303,08,00,Challenger,Qualification,Null,Null,Hard,Chzhuxaj,Sya Ch.,1,Pellegrino A.,2,0,6,2,6,4,0,0
+20180304,09,00,Null,Null,Null,Final,Hard,Akapul`ko,Anderson K.,2,Del` Potro X.-M.,0,2,4,6,4,6,0,0
+20180304,21,41,Null,Null,Null,Final,Clay,San-Paulu,Xarri N.,2,Fon`ini F.,1,2,6,1,1,6,4,6
+20180304,02,17,Challenger,Null,Null,Null,Hard,Indian-Ue`lls,Pospishil V.,2,Klizhan M.,1,2,1,6,6,3,1,6
+20180304,08,30,Challenger,Null,Null,Final,Hard,Jokogama,Uchiyama Ya.,1,Ito T.,2,1,2,6,6,3,6,4
+20180304,05,20,Challenger,Null,Null,Final,Clay,Punta-del`-E`ste,Bolelli S.,2,Andreoczci G .,1,2,6,3,4,6,3,6
+20180304,00,41,Challenger,Qualification,Null,Null,Clay,Sant`yago,Sakamoto P.,2,Zekich M.,1,2,2,6,6,3,6,7
+20180305,02,03,Challenger,Null,Null,Final,Hard,Indian-Ue`lls,King D.,2,Klizhan M.,0,2,3,6,3,6,0,0
+20180305,22,30,Challenger,Null,Null,Null,Clay,Sant`yago,Krstin P.,1,De Grif A.,2,1,6,3,3,6,6,0
+20180305,20,00,Challenger,Qualification,Null,Null,Clay,Sant`yago,Kazanova X.,2,Argue`l`o F.,0,2,2,6,2,6,0,0
+20180305,09,30,Challenger,Null,Null,Null,Hard,Chzhuxaj,Li Ch.,2,Maden Ya.,0,2,3,6,2,6,0,0
+20180305,08,00,Challenger,Qualification,Null,Null,Hard,Chzhuxaj,Be`jns M.,1,Granol`ers-Pujol` Zh.,2,0,6,3,6,2,0,0
+20180306,08,11,Challenger,Null,Null,Null,Hard,Chzhuxaj,Kubler Dzh.,1,Be`jns M.,2,0,6,2,7,6,0,0
+20180307,01,00,Null,Qualification,Null,Null,Hard,Indian-Ue`lls,Bashich M.,2,Kryuger M.,0,2,2,6,5,7,0,0
+20180307,03,08,Challenger,Null,Null,Null,Clay,Sant`yago,Kazanova X.,1,Tabilo A.,2,1,7,5,3,6,6,4
+20180307,10,03,Challenger,Null,Null,Null,Hard,Chzhuxaj,Kechmanovich M.,2,Yung Dzh.,1,2,6,3,6,7,4,6
+20180308,01,09,Null,Qualification,Null,Null,Hard,Indian-Ue`lls,Sela D.,2,King E`.,0,2,0,6,3,6,0,0
+20180308,00,28,Challenger,Null,Null,Null,Clay,Sant`yago,Andreoczci G .,1,Krstin P.,2,0,6,3,6,4,0,0
+20180308,09,43,Challenger,Null,Null,Null,Hard,Chzhuxaj,Napolitano S.,2,Otte O.,0,2,5,7,3,6,0,0
+20180309,01,00,Null,Null,Null,Null,Hard,Indian-Ue`lls,Benneto Zh.,2,Shardi Dzh.,0,2,4,6,6,7,0,0
+20180309,01,54,Challenger,Null,Null,Null,Clay,Sant`yago,Dutra Sil`va R.,2,Gomes-E`rrera K.,1,2,6,4,3,6,3,6
+20180309,09,11,Challenger,Null,Null,Null,Hard,Chzhuxaj,Bolt A.,1,Zhaziri M.,2,0,6,1,6,4,0,0
+20180310,01,00,Null,Null,Null,Null,Hard,Indian-Ue`lls,Monfils G.,1,E`bden M.,2,0,6,3,6,3,0,0
+20180310,02,15,Challenger,Null,Null,Null,Clay,Sant`yago,Kovalik J.,2,Gomes-E`rrera K.,0,2,3,6,6,7,0,0
+20180311,01,11,Null,Null,Null,Null,Hard,Indian-Ue`lls,Berdy`x T.,1,Marterer M.,2,0,6,1,6,4,0,0
+20180311,20,09,Challenger,Qualification,Null,Null,Hard,Dryummonvill`,Pasha N.,1,Ferrari F.,2,1,3,6,6,4,7,6
+20180311,04,08,Challenger,Null,Null,Final,Clay,Sant`yago,Gomes-E`rrera K.,2,Chekkinato M.,1,2,6,1,1,6,1,6
+20180311,12,54,Challenger,Null,Null,Final,Hard,Chzhuxaj,Gurkach X.,2,Bolt A.,1,2,7,5,6,7,2,6
+20180311,07,39,Challenger,Qualification,Null,Null,Hard,She`n`chzhe`n`,Napolitano S.,1,Rungkat K.,2,0,6,2,6,2,0,0
+20180312,00,05,Null,Null,Null,Null,Hard,Indian-Ue`lls,Federer R.,1,Del`bonis F.,2,0,6,3,7,6,0,0
+20180312,00,30,Challenger,Qualification,Null,Null,Hard,Dryummonvill`,Martines L. D.,2,Zhak G.,0,2,2,6,4,6,0,0
+20180312,22,00,Challenger,Qualification,Null,Null,Hard,Irving,Xrisokos P.,1,Xax Verdugo X.,2,1,6,7,6,2,7,5
+20180312,09,11,Challenger,Qualification,Null,Null,Hard,She`n`chzhe`n`,Napolitano S.,1,Vavassori A.,2,1,3,6,6,2,6,3
+20180313,00,10,Null,Null,Null,Null,Hard,Indian-Ue`lls,Mannarino A.,2,Shardi Dzh.,1,2,5,7,6,4,1,6
+20180313,20,00,Challenger,Null,Null,Null,Hard,Dryummonvill`,Krajnik P.,2,Kyopfer D.,1,2,6,3,5,7,2,6
+20180313,00,45,Challenger,Qualification,Null,Null,Hard,Dryummonvill`,Baadi T.,2,Vukich A.,0,2,5,7,2,6,0,0
+20180313,00,30,Challenger,Qualification,Null,Null,Hard,Irving,Kipson P.,1,Maginli Dzh.,2,1,4,6,6,3,6,3
+20180313,08,04,Challenger,Null,Null,Null,Hard,She`n`chzhe`n`,Kvon S. V.,2,Moraing M.,0,2,0,6,3,6,0,0
+20180314,00,00,Challenger,Null,Null,Null,Hard,Dryummonvill`,Sigouin B,2,Shol`cz N.,1,2,1,6,6,2,4,6
+20180314,00,06,Challenger,Null,Null,Null,Hard,Irving,Maginli Dzh.,2,Bashich M.,0,2,2,6,1,6,0,0
+20180314,08,41,Challenger,Null,Null,Null,Hard,She`n`chzhe`n`,Moriya X.,1,Tompson Dzh.,2,1,4,6,6,2,6,3
+20180315,00,09,Null,Null,Null,Null,Hard,Indian-Ue`lls,Fricz T.-X.,2,Chorich B.,1,2,2,6,7,6,4,6
+20180315,01,00,Challenger,Null,Null,Null,Hard,Dryummonvill`,Vukich A.,2,King E`.,0,2,6,7,4,6,0,0
+20180315,00,25,Challenger,Null,Null,Null,Hard,Irving,Fanzelov S.,2,Laczko L.,0,2,4,6,3,6,0,0
+20180315,08,05,Challenger,Null,Null,Null,Hard,She`n`chzhe`n`,Zhang Zh.,2,Otte O.,0,2,3,6,0,6,0,0
+20180316,02,00,Null,Null,Null,Null,Hard,Indian-Ue`lls,Chorich B.,1,Anderson K.,2,1,2,6,6,4,7,6
+20180316,00,40,Challenger,Null,Null,Null,Hard,Dryummonvill`,Kyopfer D.,2,King E`.,0,2,4,6,6,7,0,0
+20180316,00,04,Challenger,Null,Null,Null,Hard,Irving,Rinderknex A.,2,Xrisokos P.,1,2,3,6,6,4,2,6
+20180316,09,12,Challenger,Null,Null,Null,Hard,She`n`chzhe`n`,Ivashka I.,1,Karuzo S.,2,0,6,3,6,3,0,0
+20180317,01,08,Null,Null,Null,Null,Hard,Indian-Ue`lls,Kue`rri S.,2,Raonich M.,1,2,5,7,6,2,3,6
+20180317,01,05,Challenger,Null,Null,Null,Hard,Dryummonvill`,Kudla D.,1,Xil`cik Dzh.,2,0,6,2,6,1,0,0
+20180317,00,11,Challenger,Null,Null,Null,Hard,Irving,Fuchovich M.,1,Xrisokos P.,2,0,6,3,6,3,0,0
+20180317,15,00,Challenger,Qualification,Null,Null,Hard,Lill`,Geens K.,1,Kern R.,2,1,2,6,6,2,6,3
+20180317,08,00,Challenger,Qualification,Null,Null,Hard,Cyujczzin,Vang R.,1,Grills Dzh.,2,1,3,6,7,6,6,2
+20180317,09,11,Challenger,Null,Null,Null,Hard,She`n`chzhe`n`,Ito T.,2,Ivashka I.,0,2,3,6,2,6,0,0
+20180318,00,08,Null,Null,Null,Null,Hard,Indian-Ue`lls,Federer R.,1,Chorich B.,2,1,5,7,6,4,6,4
+20180318,01,27,Challenger,Null,Null,Null,Hard,Dryummonvill`,Pospishil V.,2,Bonci B.,1,2,5,7,6,3,1,6
+20180318,23,17,Challenger,Null,Null,Final,Hard,Dryummonvill`,Bonci B.,2,Kudla D.,0,2,0,6,5,7,0,0
+20180318,00,32,Challenger,Null,Null,Null,Hard,Irving,Berrettini M.,1,Fuchovich M.,2,0,6,3,6,4,0,0
+20180318,16,00,Challenger,Qualification,Null,Null,Hard,Lill`,Geens K.,2,Dumbiya S.,0,2,6,7,3,6,0,0
+20180318,09,00,Challenger,Qualification,Null,Null,Hard,Cyujczzin,Trongcharoenchaikul V.,2,Se`vill L.,1,2,6,7,6,1,3,6
+20180318,11,40,Challenger,Null,Null,Final,Hard,She`n`chzhe`n`,Chzhan Cz.,2,Ivashka I.,0,2,4,6,2,6,0,0
+20180319,02,12,Null,Null,Null,Final,Hard,Indian-Ue`lls,Federer R.,2,Del` Potro X.-M.,1,2,4,6,7,6,6,7
+20180319,20,00,Null,Qualification,Null,Null,Hard,Majami,Bashich M.,1,Novikov D.,2,0,6,4,6,4,0,0
+20180319,00,50,Challenger,Null,Null,Final,Hard,Irving,Berrettini M.,2,Kukushkin M.,1,2,2,6,6,3,1,6
+20180319,21,25,Challenger,Null,Null,Null,Hard,Lill`,Millo V.,2,Gren`e U.,1,2,5,7,6,1,5,7
+20180319,15,42,Challenger,Qualification,Null,Null,Hard,Lill`,Gez D.,1,Dumbiya S.,2,0,6,3,6,3,0,0
+20180319,08,00,Challenger,Null,Null,Null,Hard,Cyujczzin,Sonego L.,1,Kim Ch.-E.,2,0,6,1,6,4,0,0
+20180320,00,28,Null,Qualification,Null,Null,Hard,Majami,Kipson P.,1,Smy`chek T.,2,0,6,4,6,3,0,0
+20180320,01,10,Challenger,Null,Null,Null,Hard,Lill`,De Shepper K.,2,Xalis K.,1,2,6,3,3,6,3,6
+20180320,08,00,Challenger,Null,Null,Null,Hard,Cyujczzin,Gunnesvaran P.,2,Pellegrino A.,0,2,5,7,2,6,0,0
+20180321,21,00,Null,Null,Null,Null,Hard,Majami,Sugita Yu.,2,Xaase R.,1,2,4,6,6,3,1,6
+20180321,00,10,Null,Qualification,Null,Null,Hard,Majami,Daniel` T.,2,Kokkinakis T.,0,2,5,7,5,7,0,0
+20180321,00,05,Challenger,Null,Null,Null,Hard,Lill`,Olaso G.,1,Mertens Ya.,2,1,5,7,6,1,6,3
+20180321,09,00,Challenger,Null,Null,Null,Hard,Cyujczzin,Sonego L.,1,Moriya X.,2,0,6,2,6,2,0,0
+20180322,00,52,Null,Null,Null,Null,Hard,Majami,Millman Dzh.,1,Goyovchik P.,2,1,2,6,6,4,6,4
+20180322,00,00,Challenger,Null,Null,Null,Hard,Lill`,Mayu N.,2,Olaso G.,1,2,6,7,7,6,3,6
+20180322,09,00,Challenger,Null,Null,Null,Hard,Cyujczzin,Pellegrino A.,1,Napolitano S.,2,0,6,4,6,2,0,0
+20180323,00,55,Null,Null,Null,Null,Hard,Majami,Cicipas S.,2,Medvedev D.,1,2,6,2,4,6,2,6
+20180323,00,45,Challenger,Null,Null,Null,Hard,Lill`,Grigelis L.,2,Xoan A.,1,2,4,6,6,2,4,6
+20180323,09,00,Challenger,Null,Null,Null,Hard,Cyujczzin,Sonego L.,2,Kubler Dzh.,0,2,3,6,6,7,0,0
+20180324,00,05,Null,Null,Null,Null,Hard,Majami,Gaske R.,2,Shardi Dzh.,0,2,5,7,1,6,0,0
+20180324,01,03,Challenger,Null,Null,Null,Hard,Lill`,Olaso G.,2,Barrer G.,0,2,0,6,1,6,0,0
+20180324,15,15,Challenger,Qualification,Null,Null,Clay,Marbel`ya,Trungelliti M.,1,Kvitkovski T.,2,1,6,7,7,5,6,1
+20180324,15,00,Challenger,Qualification,Null,Null,Hard,Sen-Briyo,Gyuejdan K.,1,De Shepper Zh.,2,0,6,3,6,4,0,0
+20180324,09,13,Challenger,Null,Null,Null,Hard,Cyujczzin,Zhaziri M.,1,Kubler Dzh.,2,1,7,6,2,6,6,4
+20180325,00,28,Null,Null,Null,Null,Hard,Majami,Xachanov K.,1,Kopil M.,2,0,7,5,6,3,0,0
+20180325,23,08,Challenger,Qualification,Null,Null,Hard,Le Goz`e,Zhille S.,1,Xoshfal`t T.,2,0,7,6,6,3,0,0
+20180325,19,00,Challenger,Null,Null,Final,Hard,Lill`,Barrer G.,1,Kamke T.,2,0,6,1,6,4,0,0
+20180325,01,25,Challenger,Qualification,Null,Null,Clay,Marbel`ya,Gajo F.,1,Olaso G.,2,0,7,5,7,6,0,0
+20180325,22,00,Challenger,Qualification,Null,Null,Clay,San-Luis-Potosi,Sau Franko A. R.,2,E`skobar G.,0,2,1,6,2,6,0,0
+20180325,00,40,Challenger,Qualification,Null,Null,Hard,Sen-Briyo,Bal`tenshperger R.,2,Martino M.,0,2,6,7,0,6,0,0
+20180325,08,40,Challenger,Null,Null,Final,Hard,Cyujczzin,Zhaziri M.,1,Rola B.,2,0,7,6,6,1,0,0
+20180326,01,52,Null,Null,Null,Null,Hard,Majami,Del` Potro X.-M.,1,Nishikori K.,2,0,6,2,6,2,0,0
+20180326,00,29,Challenger,Qualification,Null,Null,Hard,Le Goz`e,Setodzhi T.,2,Roshe L.,0,2,1,6,2,6,0,0
+20180326,16,35,Challenger,Null,Null,Null,Clay,Marbel`ya,Braun D.,2,Lopes-Peres E`.,0,2,4,6,2,6,0,0
+20180326,15,00,Challenger,Qualification,Null,Null,Clay,Marbel`ya,Koppeyans K.,1,De Grif A.,2,1,4,6,6,1,6,4
+20180326,00,08,Challenger,Qualification,Null,Null,Clay,San-Luis-Potosi,Pasha N.,2,Gomes A.,0,2,3,6,6,7,0,0
+20180326,19,29,Challenger,Null,Null,Null,Hard,Sen-Briyo,Ginar M.,2,Ignatik V.,0,2,4,6,2,6,0,0
+20180326,14,39,Challenger,Qualification,Null,Null,Hard,Sen-Briyo,Grigelis L.,1,Vang T.-K.,2,1,3,6,6,3,7,6
+20180327,00,20,Null,Null,Null,Null,Hard,Majami,Kue`rri S.,2,Shapovalov D.,1,2,4,6,6,3,5,7
+20180327,00,30,Challenger,Qualification,Null,Null,Hard,Le Goz`e,Dzhombi T.,1,Romboli F.,2,0,6,3,6,2,0,0
+20180327,00,10,Challenger,Qualification,Null,Null,Clay,San-Luis-Potosi,Gomes A.,2,Krav`ecz K.,1,2,7,6,3,6,6,7
+20180327,15,00,Challenger,Null,Null,Null,Hard,Sen-Briyo,Safvat M.,2,Kolar Z.,1,2,4,6,7,5,5,7
+20180328,00,32,Null,Null,Null,Null,Hard,Majami,Del` Potro X.-M.,1,Krajinovich F.,2,0,6,4,6,2,0,0
+20180328,15,00,Challenger,Null,Null,Null,Clay,Marbel`ya,Andreoczci G .,1,Gulbis E`.,2,0,7,5,6,1,0,0
+20180328,00,11,Challenger,Null,Null,Null,Clay,San-Luis-Potosi,Lopes Villasenor Dzh.,2,Krstin P.,0,2,2,6,3,6,0,0
+20180328,00,41,Challenger,Null,Null,Null,Hard,Sen-Briyo,Umber U.,2,Zhanv`e M.,0,2,4,6,3,6,0,0
+20180329,01,17,Null,Null,Null,Null,Hard,Majami,Chon X.,2,Izner Dzh.,0,2,1,6,4,6,0,0
+20180329,01,40,Challenger,Null,Null,Null,Hard,Le Goz`e,Zhille S.,2,Uchida K.,0,2,4,6,0,6,0,0
+20180329,15,12,Challenger,Null,Null,Null,Clay,Marbel`ya,Bolelli S.,2,Andreoczci G .,1,2,6,3,0,6,3,6
+20180329,00,00,Challenger,Null,Null,Null,Clay,San-Luis-Potosi,E`strel`ya Burgos V.,2,Arevalo M.,0,2,1,6,4,6,0,0
+20180329,00,48,Challenger,Null,Null,Null,Hard,Sen-Briyo,Bagdatis M.,1,Ignatik V.,2,1,1,6,6,2,6,3
+20180330,01,30,Null,Null,Null,Null,Hard,Majami,Karreno-Busta P.,1,Anderson K.,2,1,6,4,5,7,7,6
+20180330,00,00,Challenger,Null,Null,Null,Hard,Le Goz`e,Song E.,2,Bemel`mans R.,0,2,4,6,4,6,0,0
+20180330,19,00,Challenger,Null,Null,Null,Clay,Marbel`ya,Chekkinato M.,2,Andreoczci G .,0,2,3,6,3,6,0,0
+20180330,00,09,Challenger,Null,Null,Null,Clay,San-Luis-Potosi,Xanfmann Ya.,2,Klark Dzh.,1,2,5,7,6,2,4,6
+20180330,18,50,Challenger,Null,Null,Null,Hard,Sen-Briyo,Zopp Yu.,1,Kolar Z.,2,1,2,6,6,3,6,2
+20180331,05,11,Null,Null,Null,Null,Hard,Majami,Karreno-Busta P.,2,Zverev A.,0,2,6,7,2,6,0,0
+20180331,14,30,Challenger,Qualification,Null,Null,Clay,Alikante,Sanches Xav`er K.,2,Gajo F.,0,2,3,6,4,6,0,0
+20180331,01,00,Challenger,Null,Null,Null,Hard,Le Goz`e,Lajovich D.,1,Klan B.,2,1,7,6,2,6,6,3
+20180331,21,00,Challenger,Null,Null,Final,Clay,Marbel`ya,Traval`ya S.,1,Andreoczci G .,2,0,6,3,6,3,0,0
+20180331,20,30,Challenger,Qualification,Null,Null,Clay,Panama,Gomes A.,2,Martines L. D.,1,2,4,6,6,3,5,7
+20180331,00,00,Challenger,Null,Null,Null,Clay,San-Luis-Potosi,E`rnandes-Fernandes X.,2,Kid R.,1,2,6,2,3,6,4,6
+20180331,00,15,Challenger,Null,Null,Null,Hard,Sen-Briyo,Kamke T.,2,Lest`enn K.,0,2,1,6,4,6,0,0
+20180401,23,10,Null,Null,Null,Final,Hard,Majami,Zverev A.,2,Izner Dzh.,1,2,7,6,4,6,4,6
+20180401,14,41,Challenger,Qualification,Null,Null,Clay,Alikante,Benshetri E`.,1,Romero De Avil`ya Senis A.,2,0,6,0,6,4,0,0
+20180401,01,20,Challenger,Null,Null,Null,Hard,Le Goz`e,Bemel`mans R.,2,Kudla D.,0,2,2,6,6,7,0,0
+20180401,00,50,Challenger,Qualification,Null,Null,Clay,Panama,Mexia N.,1,Galdos S.,2,0,7,5,6,1,0,0
+20180401,01,08,Challenger,Null,Null,Null,Clay,San-Luis-Potosi,Kid R.,1,Sakamoto P.,2,0,6,3,6,3,0,0
+20180401,19,10,Challenger,Null,Null,Final,Hard,Sen-Briyo,Lest`enn K.,2,Berankis R.,1,2,2,6,7,5,4,6
+20180402,17,00,Challenger,Null,Null,Null,Clay,Alikante,Ozhe Aliassim F.,1,Davidovich Fokina A.,2,0,7,5,7,5,0,0
+20180402,14,30,Challenger,Qualification,Null,Null,Clay,Alikante,Benshetri E`.,2,Moroni Dzh.-M.,0,2,1,6,4,6,0,0
+20180402,01,59,Challenger,Null,Null,Final,Hard,Le Goz`e,Lajovich D.,1,Kudla D.,2,0,6,4,6,0,0,0
+20180402,22,00,Challenger,Null,Null,Null,Clay,Panama,Opelka R.,2,Rola B.,0,2,3,6,1,6,0,0
+20180402,00,23,Challenger,Qualification,Null,Null,Clay,Panama,Londera X.-I.,1,Mantil`ya F.,2,1,5,7,6,2,7,6
+20180402,00,12,Challenger,Null,Null,Final,Clay,San-Luis-Potosi,Kid R.,2,Arevalo M.,1,2,3,6,7,6,4,6
+20180403,14,00,Challenger,Null,Null,Null,Clay,Alikante,Boluda-Purkiss K.,1,Kolar Z.,2,0,6,2,6,3,0,0
+20180403,00,05,Challenger,Null,Null,Null,Clay,Panama,Ste`txe`m X.,2,Xanfmann Ya.,1,2,4,6,7,5,3,6
+20180404,14,37,Challenger,Null,Null,Null,Clay,Alikante,De Minaur A.,1,Boluda-Purkiss K.,2,1,6,2,2,6,6,3
+20180404,00,35,Challenger,Null,Null,Null,Clay,Panama,Mantil`ya F.,2,Choinski Ya.,1,2,7,6,4,6,2,6
+20180405,15,43,Challenger,Null,Null,Null,Clay,Alikante,Anduxar P.,1,Andreoczci G .,2,1,1,6,6,4,6,4
+20180405,00,35,Challenger,Null,Null,Null,Clay,Panama,Choinski Ya.,1,Klark Dzh.,2,0,6,4,6,2,0,0
+20180406,16,00,Challenger,Null,Null,Null,Clay,Alikante,Anduxar P.,1,Chekkinato M.,2,1,6,4,5,7,6,4
+20180406,00,00,Challenger,Null,Null,Null,Clay,Panama,Rola B.,1,Xanfmann Ya.,2,1,3,6,6,4,6,4
+20180407,23,20,Null,Qualification,Null,Null,Clay,X`yuston,King E`.,2,Novikov D.,1,2,5,7,7,6,4,6
+20180407,14,00,Challenger,Null,Null,Final,Clay,Alikante,De Minaur A.,2,Anduxar P.,0,2,6,7,1,6,0,0
+20180407,14,00,Challenger,Qualification,Null,Null,Clay,Barletta,Semmler M.,2,Xajder-Maurer A.,0,2,4,6,5,7,0,0
+20180407,22,00,Challenger,Qualification,Null,Null,Clay,Meksika,Igoshin A.,2,Agamenon F.,0,2,4,6,0,6,0,0
+20180407,03,18,Challenger,Null,Null,Null,Clay,Panama,Londera X.-I.,2,Berlok K.,1,2,7,6,5,7,6,7
+20180407,08,00,Challenger,Qualification,Null,Null,Carpet,Tajbe`j,Grills Dzh.,1,Chung Yu.,2,1,6,3,2,6,6,2
+20180408,16,09,Null,Qualification,Null,Null,Clay,Marrakesh,Arnabol`di A.,1,Karuzo S.,2,1,4,6,7,5,6,1
+20180408,00,26,Null,Qualification,Null,Null,Clay,X`yuston,Norri K.,2,Nishioka J.,0,2,1,6,4,6,0,0
+20180408,15,00,Challenger,Qualification,Null,Null,Clay,Barletta,Tepavacz M.,1,Di Nikola Dzh.,2,0,7,5,6,3,0,0
+20180408,00,10,Challenger,Qualification,Null,Null,Clay,Meksika,E`rnandes-Fernandes X.,1,Barrientos N.,2,0,6,2,6,3,0,0
+20180408,05,05,Challenger,Null,Null,Final,Clay,Panama,Berlok K.,1,Rola B.,2,0,6,2,6,0,0,0
+20180408,09,08,Challenger,Qualification,Null,Null,Carpet,Tajbe`j,Cheng-Yu Yu,2,Grills Dzh.,1,2,6,4,5,7,3,6
+20180409,21,05,Null,Null,Null,Null,Clay,Marrakesh,Pe`r B.,2,Simon Zh.,1,2,2,6,7,6,6,7
+20180409,16,00,Null,Qualification,Null,Null,Clay,Marrakesh,Rubin N.,2,Arnabol`di A.,1,2,3,6,6,3,3,6
+20180409,00,24,Null,Qualification,Null,Null,Clay,X`yuston,Kozlov S.,1,Santillan A.,2,0,6,2,6,0,0,0
+20180409,16,00,Challenger,Null,Null,Null,Clay,Barletta,Bonci B.,2,Maden Ya.,0,2,2,6,0,6,0,0
+20180409,14,00,Challenger,Qualification,Null,Null,Clay,Barletta,Shazal` M.,2,Koppeyans K.,0,2,2,6,1,6,0,0
+20180409,00,16,Challenger,Qualification,Null,Null,Clay,Meksika,Krepal`di E`.,2,Ste`txe`m X.,0,2,5,7,4,6,0,0
+20180409,12,40,Challenger,Null,Null,Null,Carpet,Tajbe`j,Bolt A.,2,Kvon S. V.,1,2,6,7,6,4,3,6
+20180409,09,08,Challenger,Qualification,Null,Null,Carpet,Tajbe`j,Fe`nkatt T.,1,Mukund S.-K.,2,1,7,6,3,6,6,4
+20180410,02,09,Null,Null,Null,Null,Clay,X`yuston,Braun D.,2,Laaksonen X.,0,2,4,6,3,6,0,0
+20180410,01,00,Challenger,Qualification,Null,Null,Clay,Meksika,E`rnandes-Fernandes X.,1,Ste`txe`m R.,2,1,7,6,5,7,7,6
+20180410,03,00,Challenger,Null,Null,Null,Clay,Mexiko,Nedel`ko I.,2,Choinski Ya.,1,2,6,3,3,6,2,6
+20180410,09,15,Challenger,Null,Null,Null,Carpet,Tajbe`j,Bxambri Yu.,1,Ortega-Ol`medo R.,2,1,6,7,6,3,6,3
+20180411,18,13,Null,Null,Null,Null,Clay,Marrakesh,Kol`shrajber F.,2,Uaxab L.,1,2,6,2,0,6,6,7
+20180411,01,10,Null,Null,Null,Null,Clay,X`yuston,Sebal`os O.,1,Nishioka J.,2,0,6,1,6,2,0,0
+20180411,15,13,Challenger,Null,Null,Null,Clay,Barletta,Miloevich N.,2,Mun`yar Klar X.-A.,0,2,5,7,1,6,0,0
+20180411,00,20,Challenger,Null,Null,Null,Clay,Mexiko,Arevalo M.,1,Patino L.,2,0,6,3,6,2,0,0
+20180411,09,00,Challenger,Null,Null,Null,Carpet,Tajbe`j,Grigelis L.,2,Ito T.,1,2,7,6,4,6,3,6
+20180412,16,10,Null,Null,Null,Null,Clay,Marrakesh,Sousa Zh.,1,Bashich M.,2,1,6,3,3,6,6,4
+20180412,00,56,Null,Null,Null,Null,Clay,X`yuston,Kudla D.,2,Karlovich I.,0,2,5,7,5,7,0,0
+20180412,16,21,Challenger,Null,Null,Null,Clay,Barletta,Galovich V.,1,E`lias G.,2,0,6,1,6,2,0,0
+20180412,01,09,Challenger,Null,Null,Null,Clay,Mexiko,Kiroz R.,1,Krstin P.,2,1,4,6,6,1,6,4
+20180413,00,35,Null,Null,Null,Null,Clay,X`yuston,Fricz T.-X.,1,Xarrison R.,2,1,3,6,6,0,6,3
+20180413,16,12,Challenger,Null,Null,Null,Clay,Barletta,Trungelliti M.,1,Olivejra G.,2,0,6,1,6,3,0,0
+20180413,01,00,Challenger,Null,Null,Null,Clay,Mexiko,Argue`l`o F.,1,Moraing M.,2,1,2,6,6,4,6,4
+20180413,12,00,Challenger,Null,Null,Null,Carpet,Tajbe`j,Soeda G.,1,Donskoj E.,2,0,7,6,6,4,0,0
+20180414,16,43,Null,Null,Null,Null,Clay,Marrakesh,Vatutin A.,2,Anduxar P.,1,2,4,6,7,5,3,6
+20180414,15,08,Null,Qualification,Null,Null,Clay,Monte-Karlo,Cicipas S.,1,D`ep F.,2,0,6,3,6,2,0,0
+20180414,01,49,Null,Null,Null,Null,Clay,X`yuston,Karlovich I.,1,Kirgios N.,2,1,3,6,6,2,6,3
+20180414,17,20,Challenger,Null,Null,Null,Clay,Barletta,Mun`yar Klar X.-A.,2,Trungelliti M.,0,2,6,7,1,6,0,0
+20180414,21,15,Challenger,Qualification,Null,Null,Hard,Gvadalaxara,Olivares X.,1,Rivera Kabal`ero M.,2,0,6,3,6,3,0,0
+20180414,01,14,Challenger,Null,Null,Null,Clay,Mexiko,E`rnandes-Fernandes X.,2,Londera X.-I.,0,2,5,7,2,6,0,0
+20180414,09,00,Challenger,Qualification,Null,Null,Clay,Nan`chan,Lu T.,2,Bai Ya.,0,2,2,6,3,6,0,0
+20180414,20,06,Challenger,Qualification,Null,Null,Clay,Sarasota,Torebko P.,1,Turini T.,2,0,6,2,6,3,0,0
+20180414,11,00,Challenger,Null,Null,Null,Carpet,Tajbe`j,Ramanatxan R.,1,Soeda G.,2,0,7,6,6,4,0,0
+20180414,15,36,Challenger,Qualification,Null,Null,Clay,Tunis,Ben Frazh S.,2,Mazur D.,0,2,1,6,0,6,0,0
+20180415,19,14,Null,Null,Null,Final,Clay,Marrakesh,Anduxar P.,1,E`dmund K.,2,0,6,2,6,2,0,0
+20180415,16,45,Null,Null,Null,Null,Clay,Monte-Karlo,Kokkinakis T.,2,Xachanov K.,0,2,5,7,4,6,0,0
+20180415,15,00,Null,Qualification,Null,Null,Clay,Monte-Karlo,Cicipas S.,1,Bashich M.,2,0,6,1,6,4,0,0
+20180415,01,13,Null,Null,Null,Null,Clay,X`yuston,Karlovich I.,2,Sandgren T.,0,2,6,7,6,7,0,0
+20180415,15,12,Challenger,Null,Null,Final,Clay,Barletta,Trungelliti M.,1,Bolelli S.,2,1,2,6,7,6,6,4
+20180415,00,16,Challenger,Qualification,Null,Null,Hard,Gvadalaxara,Glasspul L.,1,Rodrigez K.,2,0,6,4,6,4,0,0
+20180415,04,40,Challenger,Null,Null,Null,Clay,Mexiko,Kiroz R.,1,Argue`l`o F.,2,1,3,6,6,0,6,3
+20180415,09,05,Challenger,Qualification,Null,Null,Clay,Nan`chan,Sekiguchi Sh.,1,Li Yu.,2,0,6,3,6,1,0,0
+20180415,00,25,Challenger,Qualification,Null,Null,Clay,Sarasota,Pyorsell M.,1,Sorgi Zh.P.,2,0,6,4,6,0,0,0
+20180415,14,34,Challenger,Null,Null,Final,Carpet,Tajbe`j,Bxambri Yu.,1,Ramanatxan R.,2,0,6,3,6,4,0,0
+20180415,15,07,Challenger,Qualification,Null,Null,Clay,Tunis,Pixler D.,2,Zhanv`e M.,1,2,2,6,6,3,3,6
+20180416,01,13,Null,Null,Null,Final,Clay,X`yuston,Dzhonson S.,1,Sandgren T.,2,1,7,6,2,6,6,4
+20180416,02,05,Challenger,Qualification,Null,Null,Hard,Gvadalaxara,Klejn B.,2,Uord Dzh.,0,2,5,7,4,6,0,0
+20180416,00,54,Challenger,Null,Null,Final,Clay,Mexiko,Kiroz R.,2,Londera X.-I.,0,2,1,6,3,6,0,0
+20180416,09,00,Challenger,Null,Null,Null,Clay,Nan`chan,Li D.-X.,2,Tompson Dzh.,0,2,2,6,1,6,0,0
+20180416,20,13,Challenger,Null,Null,Null,Clay,Sarasota,Santillan A.,1,Kyopfer D.,2,1,6,3,3,6,6,2
+20180416,17,25,Challenger,Null,Null,Null,Clay,Tunis,Popy`rin Al.,1,Miloevich N.,2,1,4,6,7,6,6,3
+20180417,15,00,Null,Null,Null,Null,Clay,Monte-Karlo,Simon Zh.,1,Mannarino A.,2,1,6,3,4,6,6,2
+20180417,00,11,Challenger,Null,Null,Null,Hard,Gvadalaxara,Novikov D.,2,Krstin P.,0,2,6,7,3,6,0,0
+20180417,01,41,Challenger,Qualification,Null,Null,Hard,Gvadalaxara,Gomes E`.,2,Uord Dzh.,1,2,7,6,1,6,4,6
+20180417,09,08,Challenger,Null,Null,Null,Clay,Nan`chan,Safvat M.,2,Xalis K.,0,2,6,7,4,6,0,0
+20180417,00,09,Challenger,Null,Null,Null,Clay,Sarasota,Kryuger M.,2,Kozlov S.,0,2,4,6,3,6,0,0
+20180417,16,00,Challenger,Null,Null,Null,Clay,Tunis,Kamke T.,2,Basilashvili N.,0,2,4,6,3,6,0,0
+20180418,15,00,Null,Null,Null,Null,Clay,Monte-Karlo,Medvedev D.,2,Nishikori K.,0,2,5,7,2,6,0,0
+20180418,00,45,Challenger,Null,Null,Null,Hard,Gvadalaxara,Patino L.,2,Pelivo F.,0,2,4,6,6,7,0,0
+20180418,09,00,Challenger,Null,Null,Null,Clay,Nan`chan,Ilkel K.,2,Gunnesvaran P.,0,2,4,6,4,6,0,0
+20180418,01,14,Challenger,Null,Null,Null,Clay,Sarasota,Arnabol`di A.,2,Rola B.,1,2,6,3,6,7,3,6
+20180418,16,12,Challenger,Null,Null,Null,Clay,Tunis,Sousa P.,1,Zopp Yu.,2,0,6,2,6,2,0,0
+20180419,15,00,Null,Null,Null,Null,Clay,Monte-Karlo,Bautista-Agut R.,2,Goffin D.,0,2,4,6,5,7,0,0
+20180419,03,13,Challenger,Null,Null,Null,Hard,Gvadalaxara,Pavich A.,2,King D.,1,2,3,6,6,2,4,6
+20180419,09,00,Challenger,Null,Null,Null,Clay,Nan`chan,Bolt A.,2,Gunnesvaran P.,0,2,6,7,1,6,0,0
+20180419,02,27,Challenger,Null,Null,Null,Clay,Sarasota,Bagnis F.,1,Belluchchi T.,2,1,3,6,6,4,7,5
+20180419,17,05,Challenger,Null,Null,Null,Clay,Tunis,Ximeno-Traver D.,1,E`lias G.,2,1,4,6,6,3,7,6
+20180420,15,05,Null,Null,Null,Null,Clay,Monte-Karlo,Dimitrov G.,1,Goffin D.,2,0,6,4,7,6,0,0
+20180420,03,10,Challenger,Null,Null,Null,Hard,Gvadalaxara,Smit Dzh.-P.,1,Pelivo F.,2,1,3,6,6,1,6,2
+20180420,09,05,Challenger,Null,Null,Null,Clay,Nan`chan,Donskoj E.,2,E`meri K.,0,2,3,6,3,6,0,0
+20180420,02,40,Challenger,Null,Null,Null,Clay,Sarasota,Opelka R.,1,Rola B.,2,0,7,6,6,3,0,0
+20180420,17,00,Challenger,Null,Null,Null,Clay,Tunis,Andreoczci G .,1,Basilashvili N.,2,0,6,1,6,2,0,0
+20180421,14,10,Null,Qualification,Null,Null,Clay,Barselona,Fratandzhelo B.,1,Dzhannessi A.,2,0,7,5,6,4,0,0
+20180421,14,39,Null,Qualification,Null,Null,Clay,Budapesht,Zopp Yu.,1,Smy`chek T.,2,1,1,6,6,4,6,4
+20180421,17,50,Null,Null,Null,Null,Clay,Monte-Karlo,Nadal` R.,1,Dimitrov G.,2,0,6,4,6,1,0,0
+20180421,09,00,Challenger,Qualification,Null,Null,Clay,An`nin,Ilkel B.,2,Mukund S.-K.,0,2,2,6,1,6,0,0
+20180421,03,18,Challenger,Null,Null,Null,Hard,Gvadalaxara,Krstin P.,1,King D.,2,1,6,2,1,6,6,2
+20180421,21,00,Challenger,Qualification,Null,Null,Hard,Leon,Gonsales U.,2,Durasovich V.,0,2,5,7,3,6,0,0
+20180421,09,11,Challenger,Null,Null,Null,Clay,Nan`chan,Gali K.,1,Tompson Dzh.,2,0,6,1,6,3,0,0
+20180421,00,16,Challenger,Null,Null,Null,Clay,Sarasota,Laaksonen X.,2,Londera X.-I.,0,2,1,6,0,6,0,0
+20180421,20,05,Challenger,Qualification,Null,Null,Clay,Tallaxassi,Lammons N.,1,Gallovej R,2,0,7,5,6,4,0,0
+20180421,16,11,Challenger,Null,Null,Null,Clay,Tunis,Domingesh Zh.,2,Andreoczci G .,1,2,7,5,5,7,3,6
+20180421,14,00,Challenger,Qualification,Null,Null,Clay,Frankavilla,Kuzmanov D.,1,Di Nikola Dzh.,2,1,3,6,6,2,6,2
+20180422,16,25,Null,Qualification,Null,Null,Clay,Barselona,Dutra Sil`va R.,1,Kovalik J.,2,0,7,6,6,4,0,0
+20180422,15,08,Null,Qualification,Null,Null,Clay,Budapesht,Chekkinato M.,2,Zopp Yu.,0,2,4,6,2,6,0,0
+20180422,18,46,Null,Null,Null,Final,Clay,Monte-Karlo,Nadal` R.,1,Nishikori K.,2,0,6,3,6,2,0,0
+20180422,09,10,Challenger,Qualification,Null,Null,Clay,An`nin,Se`vill L.,2,Mukund S.-K.,1,2,6,2,1,6,4,6
+20180422,00,00,Challenger,Null,Null,Final,Hard,Gvadalaxara,Ibe`nks K.,2,Arevalo M.,1,2,4,6,7,5,6,7
+20180422,00,00,Challenger,Qualification,Null,Null,Hard,Leon,Kid R.,1,Gomes L.,2,1,3,6,6,3,6,3
+20180422,09,10,Challenger,Null,Null,Final,Hard,Nan`chan,E`meri K.,2,Gali K.,0,2,3,6,2,6,0,0
+20180422,00,40,Challenger,Null,Null,Null,Clay,Sarasota,Dellien X.,1,Londera X.-I.,2,0,6,3,6,3,0,0
+20180422,20,07,Challenger,Qualification,Null,Null,Clay,Tallaxassi,Pyorsell M.,1,Torebko P.,2,1,6,4,2,6,7,5
+20180422,14,08,Challenger,Qualification,Null,Null,Clay,Frankavilla,Koppeyans K.,1,Gonzales M.,2,0,6,1,7,6,0,0
+20180423,15,00,Null,Null,Null,Null,Clay,Barselona,Sandgren T.,2,Zhaziri M.,0,2,4,6,4,6,0,0
+20180423,09,00,Challenger,Null,Null,Null,Clay,An`nin,Shafranek V.,2,Xarris L.,1,2,3,6,6,4,3,6
+20180423,00,00,Challenger,Null,Null,Final,Hard,Gvadalaxara,Ibe`nks K.,2,Arevalo M.,1,2,4,6,7,5,6,7
+20180423,00,10,Challenger,Qualification,Null,Null,Hard,Leon,Kid R.,1,Xusler M.-A.,2,0,7,5,6,2,0,0
+20180423,00,34,Challenger,Null,Null,Final,Clay,Sarasota,Bagnis F.,2,Dellien X.,1,2,6,2,4,6,2,6
+20180423,22,09,Challenger,Null,Null,Null,Clay,Tallaxassi,Koriya F.,1,Brajd T.,2,0,6,0,6,1,0,0
+20180423,16,15,Challenger,Null,Null,Null,Clay,Frankavilla,Ruud K.,1,De Grif A.,2,1,7,5,2,6,6,1
+20180423,14,00,Challenger,Qualification,Null,Null,Clay,Frankavilla,Viola Mat.,2,Vanni L.,1,2,2,6,6,3,3,6
+20180424,15,00,Null,Null,Null,Null,Clay,Budapesht,Bublik A.,1,Istomin D.,2,1,6,7,7,6,7,5
+20180424,09,00,Challenger,Null,Null,Null,Clay,An`nin,Yan Cz.-X.,1,Nedovesov A.,2,1,6,4,4,6,6,0
+20180424,00,15,Challenger,Qualification,Null,Null,Hard,Leon,Kiroz R.,1,E`skobar G.,2,0,6,3,6,4,0,0
+20180424,02,12,Challenger,Null,Null,Null,Clay,Tallaxassi,Tomas D.,2,Belluchchi T.,0,2,1,6,2,6,0,0
+20180424,14,00,Challenger,Null,Null,Null,Clay,Frankavilla,Rosol L.,2,Olivo R.,1,2,7,6,3,6,4,6
+20180425,15,08,Null,Null,Null,Null,Clay,Budapesht,Chekkinato M.,1,Dzhumxur D.,2,0,6,3,6,1,0,0
+20180425,09,00,Challenger,Null,Null,Null,Clay,An`nin,Baladzhi N.-Sh.,2,Kvon S. V.,0,2,4,6,5,7,0,0
+20180425,00,41,Challenger,Null,Null,Null,Clay,Tallaxassi,Xarrison K.,2,Klark Dzh.,1,2,3,6,6,3,2,6
+20180425,15,21,Challenger,Null,Null,Null,Clay,Frankavilla,Broadi L.,2,Baldi F.,0,2,6,7,1,6,0,0
+20180426,15,00,Null,Null,Null,Null,Clay,Barselona,Lopes F.,2,Klizhan M.,0,2,1,6,4,6,0,0
+20180426,15,09,Null,Null,Null,Null,Clay,Budapesht,Seppi A.,1,Yuzhny`j M.,2,0,6,1,6,2,0,0
+20180426,09,00,Challenger,Null,Null,Null,Clay,An`nin,E`meri K.,2,Bai Ya.,0,2,4,6,5,7,0,0
+20180426,00,09,Challenger,Null,Null,Null,Hard,Leon,Ste`txe`m X.,2,Kiroz R.,1,2,6,3,6,7,2,6
+20180426,00,25,Challenger,Null,Null,Null,Clay,Tallaxassi,Kudla D.,2,Rubin N.,0,2,2,6,4,6,0,0
+20180426,16,00,Challenger,Null,Null,Null,Clay,Frankavilla,Grikspur T.,1,Olivo R.,2,0,7,6,6,4,0,0
+20180427,16,42,Null,Null,Null,Null,Clay,Barselona,Cicipas S.,1,Tim D.,2,0,6,3,6,2,0,0
+20180427,15,00,Null,Null,Null,Null,Clay,Budapesht,Shtruff Ya.-L.,2,Chekkinato M.,1,2,7,5,4,6,2,6
+20180427,09,10,Challenger,Null,Null,Null,Clay,An`nin,Xarris L.,2,Majxrzhak K.,0,2,2,6,4,6,0,0
+20180427,00,12,Challenger,Null,Null,Null,Hard,Leon,Ibe`nks K.,1,Novikov D.,2,0,6,3,6,3,0,0
+20180427,01,23,Challenger,Null,Null,Null,Clay,Tallaxassi,Pyorsell M.,1,Londera X.-I.,2,1,1,6,6,3,7,5
+20180427,15,41,Challenger,Null,Null,Null,Clay,Frankavilla,Koppeyans K.,2,Grikspur T.,0,2,0,6,1,6,0,0
+20180428,17,30,Null,Null,Null,Null,Clay,Barselona,Cicipas S.,1,Karreno-Busta P.,2,0,7,5,6,3,0,0
+20180428,19,10,Null,Null,Null,Null,Clay,Budapesht,Seppi A.,2,Chekkinato M.,1,2,7,5,6,7,3,6
+20180428,15,00,Null,Qualification,Null,Null,Clay,Myunxen,Molleker R.,2,Gombos N.,1,2,6,2,2,6,4,6
+20180428,14,11,Null,Qualification,Null,Null,Clay,Stambul,Montejro T.-M.,1,Alkajya M.,2,0,6,3,6,1,0,0
+20180428,09,00,Challenger,Null,Null,Null,Clay,An`nin,Tompson Dzh.,2,Safvat M.,1,2,6,2,4,6,3,6
+20180428,15,00,Challenger,Qualification,Null,Null,Hard,Glazgo,Xodkin Sh.,2,Rajsma K.,0,2,1,6,0,6,0,0
+20180428,01,38,Challenger,Null,Null,Null,Hard,Leon,Gonsales A.,1,Pavich A.,2,1,3,6,6,4,6,1
+20180428,14,08,Challenger,Qualification,Null,Null,Clay,Ostrava,Nejedly` P.,1,Piros Z.,2,1,1,6,6,4,7,6
+20180428,22,00,Challenger,Qualification,Null,Null,Unknown Court,Pue`rto-Val`yarta,Gonsales U.,2,E`chazu M.,0,2,3,6,2,6,0,0
+20180428,20,00,Challenger,Qualification,Null,Null,Clay,Savanna,Ritshard A.,2,Strode I.,1,2,6,3,3,6,5,7
+20180428,07,30,Challenger,Qualification,Null,Null,Hard,Seul,Fe`nkatt T.,1,Kim Dzh.,2,0,6,2,6,3,0,0
+20180428,01,43,Challenger,Null,Null,Null,Clay,Tallaxassi,Rubin N.,1,Dellien X.,2,0,6,2,6,4,0,0
+20180428,00,00,Challenger,Null,Null,Final,Clay,Tallaxassi,Rubin N.,1,Polmans M.,2,1,6,2,3,6,6,4
+20180428,19,03,Challenger,Null,Null,Null,Clay,Frankavilla,Grikspur T.,2,Kuinzi Dzh.,0,2,4,6,2,6,0,0
+20180428,17,00,Null,Qualification,Null,Null,Clay,E`shtoril,Domingesh Zh.,1,Dzhannessi A.,2,0,7,5,6,1,0,0
+20180429,20,00,Null,Null,Null,Final,Clay,Barselona,Nadal` R.,1,Cicipas S.,2,0,6,2,6,1,0,0
+20180429,20,15,Null,Null,Null,Final,Clay,Budapesht,Millman D.,2,Chekkinato M.,0,2,5,7,4,6,0,0
+20180429,15,09,Null,Qualification,Null,Null,Clay,Myunxen,Mazur D.,1,Gombos N.,2,1,6,3,6,7,6,4
+20180429,14,00,Null,Qualification,Null,Null,Clay,Stambul,Ximeno-Traver D.,1,Napolitano S.,2,0,7,6,6,3,0,0
+20180429,11,05,Challenger,Null,Null,Final,Clay,An`nin,Gunnesvaran P.,1,Safvat M.,2,1,5,7,6,3,6,1
+20180429,15,37,Challenger,Qualification,Null,Null,Hard,Glazgo,Kern R.,1,Rajsma K.,2,0,7,6,7,6,0,0
+20180429,23,10,Challenger,Null,Null,Final,Hard,Leon,Smit Dzh.-P.,2,Ibe`nks K.,1,2,4,6,6,3,6,7
+20180429,02,12,Challenger,Null,Null,Null,Hard,Leon,Smit Dzh.-P.,1,Gonsales A.,2,0,6,4,6,3,0,0
+20180429,15,08,Challenger,Qualification,Null,Null,Clay,Ostrava,Rodionov Yu.,1,Galarsa X.-I.,2,1,4,6,6,3,7,6
+20180429,00,05,Challenger,Qualification,Null,Null,Unknown Court,Pue`rto-Val`yarta,Durasovich V.,1,Urkidi M.,2,0,6,1,6,2,0,0
+20180429,22,10,Challenger,Qualification,Null,Null,Hard,Pue`rto-Val`yarta,Simon T.,1,E`ndara I.,2,0,6,1,6,4,0,0
+20180429,00,39,Challenger,Qualification,Null,Null,Clay,Savanna,Sell K.,1,Lammons N.,2,0,6,4,6,4,0,0
+20180429,08,00,Challenger,Qualification,Null,Null,Hard,Seul,Na Yu.-V.,2,Ochi M.,0,2,2,6,4,6,0,0
+20180429,00,00,Challenger,Null,Null,Final,Clay,Tallaxassi,Rubin N.,1,Polmans M.,2,1,6,2,3,6,6,4
+20180429,19,00,Challenger,Null,Null,Final,Clay,Frankavilla,Kuinzi Dzh.,1,Ruud K.,2,0,6,4,6,1,0,0
+20180429,18,25,Null,Qualification,Null,Null,Clay,E`shtoril,Zhil F.,1,De Shepper K.,2,1,6,4,1,6,6,4
+20180430,17,00,Null,Null,Null,Null,Clay,Myunxen,Xanfmann Ya.,1,Bagdatis M.,2,0,6,2,6,4,0,0
+20180430,15,00,Null,Null,Null,Null,Clay,Stambul,D`ere L.,1,Istomin D.,2,0,7,6,7,6,0,0
+20180430,16,00,Challenger,Null,Null,Null,Hard,Glazgo,Xil`cik Dzh.,2,Brands D.,0,2,3,6,4,6,0,0
+20180430,17,00,Challenger,Null,Null,Null,Clay,Ostrava,Brkich T.,1,Nagal S.,2,1,6,4,3,6,6,1
+20180430,15,00,Challenger,Qualification,Null,Null,Clay,Ostrava,Furness E`.,1,E`ras P.,2,0,7,6,6,4,0,0
+20180430,00,48,Challenger,Qualification,Null,Null,Hard,Pue`rto-Val`yarta,Durasovich V.,1,Gonsales A.,2,0,6,1,6,4,0,0
+20180430,20,07,Challenger,Null,Null,Null,Clay,Savanna,Klezar G.,1,Kyopfer D.,2,0,6,2,6,3,0,0
+20180430,20,09,Challenger,Qualification,Null,Null,Clay,Savanna,Sorgi Zh.-P.,1,Redlichki Mix.,2,0,6,2,6,3,0,0
+20180430,10,45,Challenger,Null,Null,Null,Hard,Seul,Makdonal`d M.,1,Pak Yu.-S.,2,0,7,5,6,2,0,0
+20180430,09,00,Challenger,Qualification,Null,Null,Hard,Seul,Vatanuki Yo.,1,Nam Dzh.-S.,2,0,7,5,6,2,0,0
+20180430,18,00,Null,Null,Null,Null,Clay,E`shtoril,Simon Zh.,2,Sousa P.,1,2,3,6,6,4,6,7
+20180430,17,00,Null,Qualification,Null,Null,Clay,E`shtoril,Smy`chek T.,1,Zhil F.,2,0,6,4,6,2,0,0
+20180501,15,00,Null,Null,Null,Null,Clay,Myunxen,Maden Ya.,1,Sugita Yu.,2,1,4,6,7,6,6,2
+20180501,15,30,Null,Null,Null,Null,Clay,Stambul,Basilashvili N.,2,Shardi Dzh.,0,2,5,7,3,6,0,0
+20180501,15,30,Challenger,Null,Null,Null,Hard,Glazgo,Sapata-Miralles B.,2,Sijsling I.,0,2,1,6,3,6,0,0
+20180501,15,00,Challenger,Null,Null,Null,Clay,Ostrava,Saxarov G.,2,Kuinzi Dzh.,0,2,2,6,1,6,0,0
+20180501,02,37,Challenger,Null,Null,Null,Hard,Pue`rto-Val`yarta,Krajchek O.,2,Leshem E`.,0,2,3,6,4,6,0,0
+20180501,00,09,Challenger,Qualification,Null,Null,Hard,Pue`rto-Val`yarta,Durasovich V.,1,Gomes E`.,2,1,6,3,6,7,6,3
+20180501,02,05,Challenger,Null,Null,Null,Clay,Savanna,Rola B.,2,Xarrison K.,1,2,6,2,5,7,4,6
+20180501,09,00,Challenger,Null,Null,Null,Hard,Seul,Pospishil V.,1,Shnur B.,2,1,4,6,6,1,6,3
+20180501,17,09,Null,Null,Null,Null,Clay,E`shtoril,Karbal`es Bae`na R.,1,Fratandzhelo B.,2,0,7,6,6,3,0,0
+20180502,15,00,Null,Null,Null,Null,Clay,Myunxen,Klizhan M.,1,Bashich M.,2,1,4,6,6,3,7,5
+20180502,15,30,Null,Null,Null,Null,Clay,Stambul,Seppi A.,2,D`ere L.,1,2,3,6,7,6,3,6
+20180502,15,30,Challenger,Null,Null,Null,Hard,Glazgo,Brands D.,1,Miedler L.,2,0,6,1,6,3,0,0
+20180502,00,43,Challenger,Null,Null,Null,Hard,Pue`rto-Val`yarta,Petrovich D.,1,E`skobar G.,2,1,6,3,1,6,6,2
+20180502,00,33,Challenger,Null,Null,Null,Clay,Savanna,Dancevich F.,1,Kryuger M.,2,0,6,4,6,4,0,0
+20180502,12,04,Challenger,Null,Null,Null,Hard,Seul,Makdonal`d M.,1,Majxrzhak K.,2,0,6,3,6,4,0,0
+20180502,18,00,Null,Null,Null,Null,Clay,E`shtoril,E`dmund K.,1,De Minaur A.,2,0,6,2,7,5,0,0
+20180503,15,08,Null,Null,Null,Null,Clay,Myunxen,Chekkinato M.,2,Fuchovich M.,0,2,6,7,1,6,0,0
+20180503,15,30,Null,Null,Null,Null,Clay,Stambul,Shardi Dzh.,1,Lajovich D.,2,1,4,6,7,6,6,2
+20180503,15,41,Challenger,Null,Null,Null,Hard,Glazgo,Sijsling I.,2,Ortega-Ol`medo R.,1,2,6,1,6,7,6,7
+20180503,15,00,Challenger,Null,Null,Null,Clay,Ostrava,Burk M.,2,Kollarini A.,1,2,2,6,6,1,4,6
+20180503,01,09,Challenger,Null,Null,Null,Hard,Pue`rto-Val`yarta,Petrovich D.,1,Umber U.,2,1,6,4,3,6,6,3
+20180503,00,49,Challenger,Null,Null,Null,Clay,Savanna,Klark Dzh.,2,Belluchchi T.,1,2,7,6,3,6,3,6
+20180503,07,39,Challenger,Null,Null,Null,Hard,Seul,Ito T.,1,Xong S.-Ch.,2,0,7,5,6,1,0,0
+20180503,00,50,Null,Null,Null,Null,Clay,E`shtoril,Del`bonis F.,2,Bolelli S.,1,2,6,3,5,7,2,6
+20180504,15,00,Null,Null,Null,Null,Clay,Myunxen,Chon X.,1,Klizhan M.,2,0,6,3,6,4,0,0
+20180504,15,39,Null,Null,Null,Null,Clay,Stambul,Dutra Sil`va R.,2,Daniel` T.,1,2,6,1,1,6,4,6
+20180504,15,30,Challenger,Null,Null,Null,Hard,Glazgo,Laczko L.,1,Olaso G.,2,0,6,2,6,3,0,0
+20180504,16,54,Challenger,Null,Null,Null,Clay,Ostrava,Serdarushich N.,1,Brkich T.,2,0,6,3,6,2,0,0
+20180504,03,09,Challenger,Null,Null,Null,Hard,Pue`rto-Val`yarta,Petrovich D.,1,Pavich A.,2,0,6,3,6,2,0,0
+20180504,03,30,Challenger,Null,Null,Null,Clay,Savanna,Dancevich F.,2,Mmo M.,0,2,4,6,2,6,0,0
+20180504,09,00,Challenger,Null,Null,Null,Hard,Seul,Tompson Dzh.,1,Yan Cz.-X.,2,0,6,1,6,3,0,0
+20180504,00,19,Null,Null,Null,Null,Clay,E`shtoril,Kikker N.,2,Karreno-Busta P.,0,2,1,6,5,7,0,0
+20180505,15,00,Null,Qualification,Null,Null,Clay,Madrid,Zopp Yu.,2,Kikker N.,0,2,4,6,6,7,0,0
+20180505,17,40,Null,Null,Null,Null,Clay,Myunxen,Zverev A.,1,Chon X.,2,0,7,5,6,2,0,0
+20180505,20,00,Null,Null,Null,Null,Clay,Stambul,Daniel` T.,1,Shardi Dzh.,2,1,6,3,4,6,6,4
+20180505,15,00,Challenger,Qualification,Null,Null,Clay,Braga,Dias F.,2,Leote Prata M.,0,2,4,6,5,7,0,0
+20180505,16,12,Challenger,Null,Null,Null,Hard,Glazgo,Laczko L.,1,Gez D.,2,0,6,3,6,4,0,0
+20180505,11,07,Challenger,Qualification,Null,Null,Hard,Karshi,Papik T.,1,Selikbilek A.,2,0,7,6,7,6,0,0
+20180505,07,37,Challenger,Qualification,Null,Null,Hard,Kimchxon,Lim J.-K.,1,Se Ch.-P.,2,0,6,4,6,3,0,0
+20180505,17,20,Challenger,Null,Null,Null,Clay,Ostrava,Serdarushich N.,1,Barrer G.,2,1,3,6,7,5,6,1
+20180505,05,14,Challenger,Null,Null,Null,Hard,Pue`rto-Val`yarta,Petrovich D.,1,Gomes-E`rrera K.,2,0,6,3,6,3,0,0
+20180505,00,29,Challenger,Null,Null,Null,Clay,Savanna,Pyorsell M.,2,Mmo M.,0,2,3,6,2,6,0,0
+20180505,10,40,Challenger,Null,Null,Null,Hard,Seul,Kubler Dzh.,2,Tompson Dzh.,1,2,3,6,6,3,4,6
+20180505,14,11,Challenger,Qualification,Null,Null,Clay,E`ks-an-Provans,Gonzales M.,1,Gaston X.,2,0,6,3,6,0,0,0
+20180505,01,03,Null,Null,Null,Null,Clay,E`shtoril,Xarri N.,2,Karreno-Busta P.,1,2,2,6,6,2,1,6
+20180506,17,15,Null,Null,Null,Null,Clay,Madrid,Shapovalov D.,1,Sandgren T.,2,0,6,1,6,4,0,0
+20180506,15,00,Null,Qualification,Null,Null,Clay,Madrid,E`rber P.-X.,2,Donskoj E.,1,2,6,3,3,6,6,7
+20180506,17,43,Null,Null,Null,Final,Clay,Myunxen,Zverev A.,1,Kol`shrajber F.,2,0,6,3,6,3,0,0
+20180506,20,00,Null,Null,Null,Final,Clay,Stambul,Zhaziri M.,2,Daniel` T.,0,2,6,7,4,6,0,0
+20180506,16,08,Challenger,Qualification,Null,Null,Clay,Braga,B`yupain S.,2,Satral Ya.,1,2,6,2,4,6,0,6
+20180506,18,15,Challenger,Null,Null,Final,Hard,Glazgo,Laczko L.,1,Vanni L.,2,1,4,6,7,6,6,4
+20180506,12,00,Challenger,Qualification,Null,Null,Hard,Karshi,Shofajziev Sh.,1,Papik T.,2,1,6,3,0,6,6,4
+20180506,10,30,Challenger,Qualification,Null,Null,Hard,Kimchxon,Vatanuki Yo.,1,Patael B.,2,1,6,4,3,6,6,2
+20180506,18,03,Challenger,Null,Null,Final,Clay,Ostrava,Serdarushich N.,2,De Grif A.,1,2,6,4,4,6,2,6
+20180506,05,11,Challenger,Null,Null,Final,Hard,Pue`rto-Val`yarta,Menendes-Masejras A.,1,Petrovich D.,2,1,1,6,7,5,6,3
+20180506,14,00,Challenger,Qualification,Null,Null,Clay,Rim,De Sanktis M.,2,Gue`rr`eri A.,0,2,0,6,0,6,0,0
+20180506,00,43,Challenger,Null,Null,Null,Clay,Savanna,Opelka R.,2,Xarrison K.,0,2,5,7,2,6,0,0
+20180506,13,00,Challenger,Null,Null,Final,Hard,Seul,Tompson Dzh.,2,Makdonal`d M.,1,2,6,1,4,6,1,6
+20180506,14,00,Challenger,Qualification,Null,Null,Clay,E`ks-an-Provans,Desklu D.,1,Got`e A.,2,0,6,3,6,3,0,0
+20180506,20,30,Null,Null,Null,Final,Clay,E`shtoril,Sousa Zh.,1,Tiafo F.,2,0,6,4,6,4,0,0
+20180507,16,09,Null,Null,Null,Null,Clay,Madrid,Puje L.,2,Pe`r B.,0,2,2,6,3,6,0,0
+20180507,16,00,Challenger,Null,Null,Null,Clay,Braga,Ozhe Aliassim F.,1,Xoan A.,2,0,6,3,7,5,0,0
+20180507,13,15,Challenger,Null,Null,Null,Hard,Karshi,Kravchuk K.,2,Sultanov K.,0,2,6,7,3,6,0,0
+20180507,11,30,Challenger,Qualification,Null,Null,Hard,Karshi,Betov S.,1,Shofajziev Sh.,2,0,6,4,6,2,0,0
+20180507,13,52,Challenger,Null,Null,Null,Hard,Kimchxon,Be`jns M.,2,Sela D.,0,2,3,6,2,6,0,0
+20180507,11,00,Challenger,Qualification,Null,Null,Hard,Kimchxon,Nishioka J.,1,Vu T.-L.,2,1,3,6,6,4,6,3
+20180507,15,38,Challenger,Null,Null,Null,Clay,Rim,Millo V.,2,Dutra Sil`va R.,0,2,3,6,1,6,0,0
+20180507,14,00,Challenger,Qualification,Null,Null,Clay,Rim,Xajder-Maurer A.,1,E`ras P.,2,0,7,6,6,4,0,0
+20180507,00,35,Challenger,Null,Null,Final,Clay,Savanna,Dellien X.,1,Xarrison K.,2,1,6,1,1,6,6,4
+20180507,15,41,Challenger,Null,Null,Null,Clay,E`ks-an-Provans,Bublik A.,2,Klan B.,0,2,6,7,6,7,0,0
+20180507,14,07,Challenger,Qualification,Null,Null,Clay,E`ks-an-Provans,Diez S.,1,Desklu D.,2,0,7,5,6,2,0,0
+20180508,00,11,Null,Null,Null,Null,Clay,Madrid,Anduxar P.,2,Lopes F.,0,2,6,7,3,6,0,0
+20180508,15,09,Challenger,Null,Null,Null,Clay,Braga,Kamke T.,2,Robe`r S.,0,2,6,7,5,7,0,0
+20180508,11,00,Challenger,Null,Null,Null,Hard,Karshi,Ilkel K.,1,Xil`cik Dzh.,2,0,6,2,7,6,0,0
+20180508,08,00,Challenger,Null,Null,Null,Hard,Kimchxon,Ste`txe`m X.,2,Soeda G.,1,2,2,6,6,3,4,6
+20180508,14,37,Challenger,Null,Null,Null,Clay,E`ks-an-Provans,Ofner S.,1,Staxovskij S.,2,1,3,6,6,2,7,5
+20180509,00,13,Null,Null,Null,Null,Clay,Madrid,Del` Potro X.-M.,1,Dzhumxur D.,2,0,6,3,6,3,0,0
+20180509,16,09,Challenger,Null,Null,Null,Clay,Braga,Dzhustino L.,2,De Minaur A.,1,2,5,7,7,5,2,6
+20180509,08,00,Challenger,Null,Null,Null,Hard,Kimchxon,Li Ch.,2,Pyorsell M.,0,2,1,6,4,6,0,0
+20180509,14,00,Challenger,Null,Null,Null,Clay,Rim,Bolelli S.,1,Trungelliti M.,2,0,6,2,7,6,0,0
+20180509,15,18,Challenger,Null,Null,Null,Clay,E`ks-an-Provans,Klan B.,2,Montejro T.-M.,0,2,5,7,4,6,0,0
+20180510,01,11,Null,Null,Null,Null,Clay,Madrid,Del`bonis F.,2,Tim D.,1,2,6,4,3,6,5,7
+20180510,15,39,Challenger,Null,Null,Null,Clay,Braga,Ruud K.,1,Novak D.,2,0,6,4,6,2,0,0
+20180510,12,00,Challenger,Null,Null,Null,Hard,Karshi,Sultanov K.,2,Boluda-Purkiss K.,0,2,6,7,4,6,0,0
+20180510,08,00,Challenger,Null,Null,Null,Hard,Kimchxon,Kubler Dzh.,2,Pospishil V.,0,2,4,6,4,6,0,0
+20180510,17,09,Challenger,Null,Null,Null,Clay,Rim,Kuinzi Dzh.,1,Dutra Sil`va R.,2,0,6,4,6,4,0,0
+20180510,15,06,Challenger,Null,Null,Null,Clay,E`ks-an-Provans,Otte O.,1,Ofner S.,2,1,4,6,6,3,6,2
+20180511,00,12,Null,Null,Null,Null,Clay,Madrid,Nadal` R.,1,Shvarczman D.-S.,2,0,6,3,6,4,0,0
+20180511,16,38,Challenger,Null,Null,Null,Clay,Braga,Ozhe Aliassim F.,2,De Minaur A.,1,2,6,3,1,6,2,6
+20180511,12,00,Challenger,Null,Null,Null,Hard,Karshi,Boluda-Purkiss K.,2,Betov S.,0,2,6,7,1,6,0,0
+20180511,08,08,Challenger,Null,Null,Null,Hard,Kimchxon,Pyorsell M.,1,Soeda G.,2,0,6,3,6,3,0,0
+20180511,16,40,Challenger,Null,Null,Null,Clay,Rim,Krav`ecz K.,2,D`ere L.,0,2,2,6,2,6,0,0
+20180511,15,11,Challenger,Null,Null,Null,Clay,E`ks-an-Provans,Millman Dzh.,1,Otte O.,2,0,6,4,6,0,0,0
+20180512,02,13,Null,Null,Null,Null,Clay,Madrid,Izner Dzh.,2,Zverev A.,0,2,4,6,5,7,0,0
+20180512,14,12,Null,Qualification,Null,Null,Clay,Rim,Fabbiano T.,2,Troiczki V.,0,2,5,7,3,6,0,0
+20180512,15,13,Challenger,Qualification,Null,Null,Clay,Bordo,Vasilevski A.,2,Zhak G.,0,2,3,6,2,6,0,0
+20180512,18,11,Challenger,Null,Null,Null,Clay,Braga,Ruud K.,1,De Minaur A.,2,0,6,3,6,2,0,0
+20180512,10,07,Challenger,Null,Null,Null,Hard,Kimchxon,Pyorsell M.,2,Nishioka J.,0,2,4,6,0,6,0,0
+20180512,15,08,Challenger,Qualification,Null,Null,Clay,Lissabon,E`remin E`.,1,Leote Prata M.,2,0,7,5,6,2,0,0
+20180512,07,08,Challenger,Qualification,Null,Null,Hard,Pusan,Kim Dzh.-X.,2,Olaso G.,0,2,0,6,5,7,0,0
+20180512,19,20,Challenger,Null,Null,Final,Clay,Rim,Pavlashek A.,1,D`ere L.,2,1,7,6,6,7,6,4
+20180512,11,00,Challenger,Qualification,Null,Null,Clay,Samarkand,Bielinskij O.,2,Fomin S.,0,2,4,6,2,6,0,0
+20180512,15,00,Challenger,Qualification,Null,Null,Clay,Xajl`bronn,Surchenko D.,2,Negritu K.,0,2,5,7,1,6,0,0
+20180512,17,10,Challenger,Null,Null,Null,Clay,E`ks-an-Provans,Millman Dzh.,1,Andreoczci G .,2,1,6,7,6,2,7,5
+20180513,02,16,Null,Null,Null,Null,Clay,Madrid,Shapovalov D.,2,Zverev A.,0,2,4,6,1,6,0,0
+20180513,22,43,Null,Null,Null,Final,Clay,Madrid,Tim D.,2,Zverev A.,0,2,4,6,4,6,0,0
+20180513,16,10,Null,Null,Null,Null,Clay,Rim,Sonego L.,1,Mannarino A.,2,1,2,6,7,6,6,3
+20180513,15,08,Null,Qualification,Null,Null,Clay,Rim,Benneto Zh.,2,Basilashvili N.,1,2,6,3,5,7,4,6
+20180513,14,41,Challenger,Qualification,Null,Null,Clay,Bordo,Rebul F.,2,Myuller A.,1,2,1,6,6,1,3,6
+20180513,16,10,Challenger,Null,Null,Final,Clay,Braga,Sousa P.,1,Ruud K.,2,1,6,0,3,6,6,3
+20180513,09,10,Challenger,Null,Null,Null,Hard,Kimchxon,Nishioka J.,1,Pospishil V.,2,0,6,4,7,5,0,0
+20180513,16,06,Challenger,Qualification,Null,Null,Clay,Lissabon,Batista D.,2,Fernandes Kanovas A.,0,2,0,6,3,6,0,0
+20180513,08,12,Challenger,Qualification,Null,Null,Hard,Pusan,Fe`nkatt T.,2,Olaso G.,0,2,1,6,5,7,0,0
+20180513,11,00,Challenger,Qualification,Null,Null,Clay,Samarkand,Papik T.,2,Fomin S.,0,2,1,6,5,7,0,0
+20180513,15,08,Challenger,Qualification,Null,Null,Clay,Xajl`bronn,Kazanova X.,2,Nisten M.,0,2,1,6,5,7,0,0
+20180513,20,40,Challenger,Null,Null,Final,Clay,E`ks-an-Provans,Millman Dzh.,1,Tomich B.,2,0,6,1,6,2,0,0
+20180514,15,09,Null,Null,Null,Null,Clay,Rim,Donal`dson Dzh.,2,Karreno-Busta P.,1,2,4,6,6,3,0,6
+20180514,18,40,Challenger,Null,Null,Null,Clay,Bordo,Kudla D.,2,Bonci B.,1,2,6,4,1,6,0,6
+20180514,14,38,Challenger,Qualification,Null,Null,Clay,Bordo,Zhanv`e M.,1,Perchikot M.,2,0,6,4,6,2,0,0
+20180514,17,40,Challenger,Null,Null,Null,Clay,Lissabon,Xarrison K.,1,Saxarov G.,2,0,6,0,6,4,0,0
+20180514,16,07,Challenger,Qualification,Null,Null,Clay,Lissabon,Gajo F.,2,E`remin E`.,0,2,6,7,3,6,0,0
+20180514,10,07,Challenger,Null,Null,Null,Hard,Pusan,Vu D.,2,Li Ch.,1,2,4,6,6,3,1,6
+20180514,08,05,Challenger,Qualification,Null,Null,Hard,Pusan,E`llis B.,2,Be`jns M.,0,2,6,7,1,6,0,0
+20180514,12,00,Challenger,Qualification,Null,Null,Clay,Samarkand,Safiullin R.,1,Gengel M.,2,1,6,2,3,6,6,3
+20180514,18,09,Challenger,Null,Null,Null,Clay,Xajl`bronn,Krstin P.,2,Vatutin A.,0,2,2,6,2,6,0,0
+20180514,16,06,Challenger,Qualification,Null,Null,Clay,Xajl`bronn,Xassan B.,1,Yan Dzh.,2,1,6,2,2,6,6,4
+20180515,18,35,Null,Null,Null,Null,Clay,Rim,Puje L.,1,Seppi A.,2,1,6,2,3,6,7,6
+20180515,08,08,Challenger,Null,Null,Null,Hard,Pusan,Kim J.-S.,2,Zhiron M.,0,2,3,6,3,6,0,0
+20180515,12,00,Challenger,Null,Null,Null,Clay,Samarkand,Karimov Dzh.,2,Xarris L.,0,2,3,6,3,6,0,0
+20180515,11,00,Challenger,Qualification,Null,Null,Clay,Samarkand,Fomin S.,1,Sultanov K.,2,0,6,2,6,2,0,0
+20180515,00,24,Challenger,Null,Null,Null,Clay,Xajl`bronn,Zopp Yu.,2,Moraing M.,0,2,4,6,6,7,0,0
+20180516,01,33,Null,Null,Null,Null,Clay,Rim,Goyovchik P.,1,Sonego L.,2,0,6,3,6,4,0,0
+20180516,14,37,Challenger,Null,Null,Null,Clay,Bordo,Bonci B.,2,Opelka R.,0,2,4,6,4,6,0,0
+20180516,16,12,Challenger,Null,Null,Null,Clay,Lissabon,Ofner S.,1,Kryuger M.,2,0,6,3,6,4,0,0
+20180516,10,21,Challenger,Null,Null,Null,Hard,Pusan,Li Ch.,2,Yung Dzh.,1,2,6,7,7,5,1,6
+20180516,00,15,Challenger,Null,Null,Null,Clay,Xajl`bronn,Pyucz T.,1,Gombos N.,2,1,6,4,4,6,6,3
+20180517,00,05,Null,Null,Null,Null,Clay,Rim,Xaase R.,2,Shapovalov D.,1,2,6,7,7,6,3,6
+20180517,08,00,Challenger,Null,Null,Null,Hard,Pusan,Pyorsell M.,2,Pospishil V.,0,2,2,6,3,6,0,0
+20180517,11,45,Challenger,Null,Null,Null,Clay,Samarkand,Vanni L.,1,Boluda-Purkiss K.,2,0,6,0,6,1,0,0
