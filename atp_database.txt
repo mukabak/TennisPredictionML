@@ -1,4 +1,4 @@
-// Full database is available on omukabak@gmail.com.
+omukabak@gmail.com.
 
 column 0: YearMonthDay
 column 1: Hour
